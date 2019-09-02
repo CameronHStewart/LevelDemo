@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>MyPkg</fullName>
+<types>
+    <members>Contact.Name</members>
+    
+
+    <members>Transaction__c.Brand__c</members>
+    <members>Transaction__c.Business_Day_Date__c</members>
+    <members>Transaction__c.Cashier_ID__c</members>
+    <members>Transaction__c.Cashier_Name__c</members>
+    <members>Transaction__c.Contact__c</members>
+    <members>Transaction__c.Coupon_Number__c</members>
+    <members>Transaction__c.Customer_ID__c</members>
+    <members>Transaction__c.Customer_Name__c</members>
+    <members>Transaction__c.Invoice_Number__c</members>
+    <members>Transaction__c.Sales_Associate_ID__c</members>
+    <members>Transaction__c.Sales_Associate_Name__c</members>
+    <members>Transaction__c.Store_City__c</members>
+    <members>Transaction__c.Store_Description__c</members>
+    <members>Transaction__c.Store_ID__c</members>
+    <members>Transaction__c.Store_Market__c</members>
+    <members>Transaction__c.Tax_Amount__c</members>
+    <members>Transaction__c.Tender_Type_Group__c</members>
+    <members>Transaction__c.Total_Amount__c</members>
+    <members>Transaction__c.Total_Discount_Amount__c</members>
+    <members>Transaction__c.Transaction_Date_Time__c</members>
+    <members>Transaction__c.Transaction_Number__c</members>
+    <members>Transaction__c.Transaction_Sequence_Number__c</members>
+    <members>Transaction__c.Transaction_Type__c</members>
+    <members>Transaction__c.Voucher_Number__c</members>
+
+    <members>Transaction_Item__c.Discount_Amount__c</members>
+    <members>Transaction_Item__c.Discount_Reason_Code__c</members>
+    <members>Transaction_Item__c.Discount_Reason_Comment__c</members>
+    <members>Transaction_Item__c.Discounted_Price__c</members>
+    <members>Transaction_Item__c.Item__c</members>
+    <members>Transaction_Item__c.Item_ID__c</members>
+    <members>Transaction_Item__c.Item_Quantity__c</members>
+    <members>Transaction_Item__c.Item_Sequence_Number__c</members>
+    <members>Transaction_Item__c.Product__c</members>
+    <members>Transaction_Item__c.Purchase_Name__c</members>
+    <members>Transaction_Item__c.Retail_Price__c</members>
+    <members>Transaction_Item__c.Sales_Associate_ID__c</members>
+    <members>Transaction_Item__c.Sales_Associate_Name__c</members>
+    <members>Transaction_Item__c.Tax_Amount__c</members>
+    <members>Transaction_Item__c.Tax_Exempt__c</members>
+    
+    <members>Product2.ProductCode</members>
+    <members>Product2.Description</members>
+    <members>Product2.Baby_Junior__c</members>
+    <members>Product2.Barcodes__c</members>
+    <members>Product2.Class_ID__c</members>
+    <members>Product2.Class_Name__c</members>
+    <members>Product2.Color__c</members>
+    <members>Product2.Department_Brand__c</members>
+    <members>Product2.Department_ID__c</members>
+    <members>Product2.Department_Name__c</members>
+    <members>Product2.Gender__c</members>
+    <members>Product2.Line__c</members>
+    <members>Product2.Primary_VPN__c</members>
+    <members>Product2.Season__c</members>
+    <members>Product2.Size__c</members>
+    <members>Product2.Sub_Line__c</members>
+    <members>Product2.Subclass_ID__c</members>
+    <members>Product2.Subclass_Name__c</members>
+    <members>Product2.Supplier_Class__c</members>
+    <members>Product2.Supplier_Sub_Class__c</members>
+
+    <!--<members>Contact.Salutation</members>
+    <members>Contact.FirstName</members>
+    <members>Contact.LastName</members>
+    <members>Contact.MiddleName</members> 
+    <members>Contact.Birthdate</members>
+    <members>Contact.MailingStreet</members>
+    <members>Contact.MailingStreet</members>
+    <members>Contact.MailingCity</members>
+    <members>Contact.MailingStreet</members>
+    <members>Contact.MailingCountry</members>
+    <members>Contact.MailingPostalCode</members>
+    <members>Contact.MobilePhone</members>
+    <members>Contact.OtherPhone</members>
+    <members>Contact.Email</members>
+    <members>Contact.LeadSource</members>
+    <members>Contact.DoNotCall</members>-->
+
+    <members>Contact.Age_Range__c</members>
+    <members>Contact.Arabic_First_Name__c</members>
+    <members>Contact.Arabic_Last_Name__c</members>
+    <members>Contact.Customer_Group__c</members>
+    <members>Contact.Customer_Sub_Group__c</members>
+    <members>Contact.Customer_Type__c</members>
+    <members>Contact.Email_Opt_Out__c</members>
+    <members>Contact.Favourite_Coffee__c</members>
+    <members>Contact.Favourite_Restaurant__c</members>
+    <members>Contact.First_Visit__c</members>
+    <members>Contact.Gender__c</members>
+    <members>Contact.Interests__c</members>
+    <members>Contact.Last_Visit__c</members>
+    <members>Contact.Location_ID__c</members>
+    <members>Contact.Marital_Status__c</members>
+    <members>Contact.Nationality__c</members>
+    <members>Contact.Occupation__c</members>
+    <members>Contact.Preferred_Brand__c</members>
+    <members>Contact.Preferred_Communication_Channel__c</members>
+    <members>Contact.Preferred_Contact_Method__c</members>
+    <members>Contact.Preferred_Language__c</members>
+    <members>Contact.Preferred_Sales_Associate__c</members>
+    <members>Contact.Preferred_Styles__c</members>
+    <members>Contact.Residency__c</members>
+    <members>Contact.Shoe_Size__c</members>
+    <members>Contact.SMS_Opt_Out__c</members>
+    <members>Contact.Spend_to_Date__c</members>
+    <members>Contact.Transaction_Count__c</members>
+    <members>Contact.Travelling__c</members>
+    <members>Contact.WhatsApp_Opt_Out__c</members>
+
+    <name>CustomField</name>
+</types>
+<types>
+    <members>Contact</members>
+    <members>Case</members>
+    <members>Product2</members>
+    <members>Transaction__c</members>
+    <members>Transaction_Item__c</members>
+    <name>CustomObject</name>
+</types>
+
+<types>
+    <members>Admin</members>
+    <name>Profile</name>
+</types>
+
+
+<version>46.0</version>
+</Package>
