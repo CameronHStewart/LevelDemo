@@ -131,6 +131,18 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Guest_Services</members>
+        <name>LiveChatAgentConfig</name>
+    </types>
+    <types>
+        <members>Service_Chat</members>
+        <name>LiveChatButton</name>
+    </types>
+    <types>
+        <members>Chat</members>
+        <name>LiveChatDeployment</name>
+    </types>
+    <types>
         <members>Chat</members>
         <name>PermissionSet</name>
     </types>
