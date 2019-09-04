@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Case.Default Assignment</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
         <members>Contact.AccountId</members>
         <members>Contact.Age_Range__c</members>
         <members>Contact.Arabic_First_Name__c</members>
@@ -127,8 +131,34 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Chat</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Chat_Available</members>
+        <name>PresenceUserConfig</name>
+    </types>
+    <types>
         <members>Admin</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Chat</members>
+        <members>Working</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Chat_Guest_Services</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>Chat_Available</members>
+        <name>ServicePresenceStatus</name>
+    </types>
+    <types>
+        <members>LiveAgent</members>
+        <members>OmniChannel</members>
+        <name>Settings</name>
     </types>
     <version>46.0</version>
 </Package>

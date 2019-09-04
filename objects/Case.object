@@ -389,10 +389,10 @@
         <label>My Open Cases</label>
     </listViews>
     <listViews>
-        <fullName>Q1_Case</fullName>
+        <fullName>Working_Case</fullName>
         <filterScope>Queue</filterScope>
-        <label>Q1</label>
-        <queue>Q1</queue>
+        <label>Working</label>
+        <queue>Working</queue>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
