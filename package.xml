@@ -180,6 +180,10 @@
         <name>LiveChatDeployment</name>
     </types>
     <types>
+        <members>Contact.Custom_Contact_Matching_Rule</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
         <members>Chat</members>
         <name>PermissionSet</name>
     </types>
