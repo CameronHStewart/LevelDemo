@@ -494,6 +494,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Customer_Yearly_Total_Spend__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Yearly/Total Spend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

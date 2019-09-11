@@ -94,6 +94,10 @@
                 <behavior>Edit</behavior>
                 <field>Membership_Active__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Customer_Yearly_Total_Spend__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

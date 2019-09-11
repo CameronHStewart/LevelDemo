@@ -5,8 +5,8 @@
         <description>Auto response email to the Customers from email or Web</description>
         <protected>false</protected>
         <recipients>
-            <recipient>vijitha.mutyala@weare4c.com.levelshoes.4cdev</recipient>
-            <type>user</type>
+            <field>ContactId</field>
+            <type>contactLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Email_First_Response</template>

@@ -217,6 +217,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Customer_Yearly_Total_Spend__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Department</field>
         <readable>false</readable>
     </fieldPermissions>
