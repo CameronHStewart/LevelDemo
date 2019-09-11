@@ -153,6 +153,10 @@
         <name>CustomPermission</name>
     </types>
     <types>
+        <members>SharedDocuments/Level_Shoes_Example.png</members>
+        <name>Document</name>
+    </types>
+    <types>
         <members>Contact.Custom_Contact_Duplicate_Rule</members>
         <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <name>DuplicateRule</name>
@@ -199,7 +203,7 @@
     </types>
     <types>
         <members>Level_Shoes_Service_Letter_Head</members>
-        <name>LetterHead</name>
+        <name>Letterhead</name>
     </types>
     <types>
         <members>Guest_Services</members>
