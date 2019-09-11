@@ -5,6 +5,14 @@
         <name>AssignmentRule</name>
     </types>
     <types>
+        <members>Sales</members>
+        <members>standard__LightningBolt</members>
+        <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Case.Category__c</members>
         <members>Case.Closed_Reason__c</members>
         <members>Case.Customer_Satisfaction__c</members>
@@ -146,20 +154,41 @@
     </types>
     <types>
         <members>Contact.Custom_Contact_Duplicate_Rule</members>
+        <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>unfiled$public/Case_Resolved</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>standard support</members>
+        <members>standard support1</members>
+        <name>EntitlementProcess</name>
     </types>
     <types>
         <members>Case_Record_Page3</members>
         <members>Case_Record_Page4</members>
+        <members>Contact_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
         <members>Selecting_Contact_Type_Automatically_Through_Transactions</members>
+        <members>Selecting_Contact_type_automatically_based_on_transactions_made</members>
         <members>X12_Months_Spend_Flag_On_Transaction</members>
         <name>Flow</name>
     </types>
     <types>
+        <members>Selecting_Contact_type_automatically_based_on_transactions_made</members>
+        <members>Selecting_Contact_type_automatically_through_transactions</members>
+        <members>X12_months_Spend_Flag_on_Transaction</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
         <members>Case-Case Layout</members>
+        <members>Case-Custom Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CaseInteraction-Case Feed Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
         <members>Contact-Contact Layout</members>
         <members>Product2-Product Layout</members>
@@ -184,6 +213,35 @@
         <name>MatchingRule</name>
     </types>
     <types>
+        <members>Contact</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>1st Contact Completed</members>
+        <members>1st contact</members>
+        <members>Account Issue</members>
+        <members>Beauty Treatment</members>
+        <members>Courier Service</members>
+        <members>Create New Reservation</members>
+        <members>Delivery Status</members>
+        <members>Exchange International Complete</members>
+        <members>Exchange Local Complete</members>
+        <members>Existing Reservation</members>
+        <members>Initiate Exchange</members>
+        <members>Initiate Refund</members>
+        <members>Initiate Return</members>
+        <members>Refund Credit Card</members>
+        <members>Refund E gift card</members>
+        <members>Refund Status</members>
+        <members>Refund Store Credit</members>
+        <members>Repair</members>
+        <members>Return International complete</members>
+        <members>Return Local complete</members>
+        <members>Store credit note - IT</members>
+        <members>Store credit note - Manager Approval</members>
+        <name>MilestoneType</name>
+    </types>
+    <types>
         <members>Chat</members>
         <name>PermissionSet</name>
     </types>
@@ -205,8 +263,22 @@
         <name>QueueRoutingConfig</name>
     </types>
     <types>
+        <members>Accounts_with_Entitlements_with_Contacts</members>
+        <name>ReportType</name>
+    </types>
+    <types>
         <members>Chat_Available</members>
         <name>ServicePresenceStatus</name>
+    </types>
+    <types>
+        <members>CaseOrigin</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>Workflow</name>
     </types>
     <types>
         <members>Case</members>
