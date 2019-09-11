@@ -185,7 +185,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override updated by Lightning App Builder during activation.</comment>
-        <content>Case_Record_Page2</content>
+        <content>Case_Record_Page4</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -223,8 +223,105 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Amenities</fullName>
+                    <default>false</default>
+                    <label>Amenities</label>
+                </value>
+                <value>
+                    <fullName>Concierge</fullName>
+                    <default>false</default>
+                    <label>Concierge</label>
+                </value>
+                <value>
+                    <fullName>Courier Services</fullName>
+                    <default>false</default>
+                    <label>Courier Services</label>
+                </value>
+                <value>
+                    <fullName>Customer Service</fullName>
+                    <default>false</default>
+                    <label>Customer Service</label>
+                </value>
+                <value>
+                    <fullName>E-Commerce</fullName>
+                    <default>false</default>
+                    <label>E-Commerce</label>
+                </value>
+                <value>
+                    <fullName>Reservation</fullName>
+                    <default>false</default>
+                    <label>Reservation</label>
+                </value>
+                <value>
+                    <fullName>Shopping</fullName>
+                    <default>false</default>
+                    <label>Shopping</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Closed_reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>No action</fullName>
+                    <default>false</default>
+                    <label>No action</label>
+                </value>
+                <value>
+                    <fullName>No answer customer</fullName>
+                    <default>false</default>
+                    <label>No answer customer</label>
+                </value>
+                <value>
+                    <fullName>No Sales</fullName>
+                    <default>false</default>
+                    <label>No Sales</label>
+                </value>
+                <value>
+                    <fullName>Resolved</fullName>
+                    <default>false</default>
+                    <label>Resolved</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Comments</fullName>
@@ -254,10 +351,58 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Customer_Satisfaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Satisfaction</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Very Happy</fullName>
+                    <default>false</default>
+                    <label>Very Happy</label>
+                </value>
+                <value>
+                    <fullName>Happy</fullName>
+                    <default>false</default>
+                    <label>Happy</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Unhappy</fullName>
+                    <default>false</default>
+                    <label>Unhappy</label>
+                </value>
+                <value>
+                    <fullName>Angry</fullName>
+                    <default>false</default>
+                    <label>Angry</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>EntitlementId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>IsClosedOnCreate</fullName>
@@ -269,6 +414,20 @@
         <fullName>IsEscalated</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsStopped</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>MilestoneStatus</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>MilestoneStatusIcon</fullName>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -300,11 +459,28 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>ProductId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Reason</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SlaExitDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SlaStartDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>SourceId</fullName>
@@ -319,6 +495,316 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StopStartDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Subcategory__c</fullName>
+        <externalId>false</externalId>
+        <label>Subcategory</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product Details</fullName>
+                    <default>false</default>
+                    <label>Product Details</label>
+                </value>
+                <value>
+                    <fullName>Concession</fullName>
+                    <default>false</default>
+                    <label>Concession</label>
+                </value>
+                <value>
+                    <fullName>Payment Link</fullName>
+                    <default>false</default>
+                    <label>Payment Link</label>
+                </value>
+                <value>
+                    <fullName>Credit Note</fullName>
+                    <default>false</default>
+                    <label>Credit Note</label>
+                </value>
+                <value>
+                    <fullName>Wish List</fullName>
+                    <default>false</default>
+                    <label>Wish List</label>
+                </value>
+                <value>
+                    <fullName>New Reservation</fullName>
+                    <default>false</default>
+                    <label>New Reservation</label>
+                </value>
+                <value>
+                    <fullName>Existing Reservation</fullName>
+                    <default>false</default>
+                    <label>Existing Reservation</label>
+                </value>
+                <value>
+                    <fullName>Cancel Reservation</fullName>
+                    <default>false</default>
+                    <label>Cancel Reservation</label>
+                </value>
+                <value>
+                    <fullName>Feedback</fullName>
+                    <default>false</default>
+                    <label>Feedback</label>
+                </value>
+                <value>
+                    <fullName>Complaint</fullName>
+                    <default>false</default>
+                    <label>Complaint</label>
+                </value>
+                <value>
+                    <fullName>Order Status</fullName>
+                    <default>false</default>
+                    <label>Order Status</label>
+                </value>
+                <value>
+                    <fullName>Return Request</fullName>
+                    <default>false</default>
+                    <label>Return Request</label>
+                </value>
+                <value>
+                    <fullName>Return Status</fullName>
+                    <default>false</default>
+                    <label>Return Status</label>
+                </value>
+                <value>
+                    <fullName>Exchange Request</fullName>
+                    <default>false</default>
+                    <label>Exchange Request</label>
+                </value>
+                <value>
+                    <fullName>Exchange Status</fullName>
+                    <default>false</default>
+                    <label>Exchange Status</label>
+                </value>
+                <value>
+                    <fullName>Refund</fullName>
+                    <default>false</default>
+                    <label>Refund</label>
+                </value>
+                <value>
+                    <fullName>Refund Status</fullName>
+                    <default>false</default>
+                    <label>Refund Status</label>
+                </value>
+                <value>
+                    <fullName>Address Verification</fullName>
+                    <default>false</default>
+                    <label>Address Verification</label>
+                </value>
+                <value>
+                    <fullName>E-Gift Card</fullName>
+                    <default>false</default>
+                    <label>E-Gift Card</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Gift Wrapping and Gift Card</fullName>
+                    <default>false</default>
+                    <label>Gift Wrapping and Gift Card</label>
+                </value>
+                <value>
+                    <fullName>Gift Card</fullName>
+                    <default>false</default>
+                    <label>Gift Card</label>
+                </value>
+                <value>
+                    <fullName>The Cobbler</fullName>
+                    <default>false</default>
+                    <label>The Cobbler</label>
+                </value>
+                <value>
+                    <fullName>Bookings</fullName>
+                    <default>false</default>
+                    <label>Bookings</label>
+                </value>
+                <value>
+                    <fullName>International Shipment</fullName>
+                    <default>false</default>
+                    <label>International Shipment</label>
+                </value>
+                <value>
+                    <fullName>Quotation</fullName>
+                    <default>false</default>
+                    <label>Quotation</label>
+                </value>
+                <value>
+                    <fullName>Shipment Status</fullName>
+                    <default>false</default>
+                    <label>Shipment Status</label>
+                </value>
+                <value>
+                    <fullName>Delivery</fullName>
+                    <default>false</default>
+                    <label>Delivery</label>
+                </value>
+                <value>
+                    <fullName>Click &amp; Collect</fullName>
+                    <default>false</default>
+                    <label>Click &amp; Collect</label>
+                </value>
+                <value>
+                    <fullName>Order Supply</fullName>
+                    <default>false</default>
+                    <label>Order Supply</label>
+                </value>
+                <value>
+                    <fullName>Gift</fullName>
+                    <default>false</default>
+                    <label>Gift</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>Gift Wrapping and Gift Card</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>Gift Card</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>The Cobbler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>Bookings</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Concierge</controllingFieldValue>
+                <controllingFieldValue>Courier Services</controllingFieldValue>
+                <valueName>International Shipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Concierge</controllingFieldValue>
+                <valueName>Delivery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Concierge</controllingFieldValue>
+                <valueName>Click &amp; Collect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Concierge</controllingFieldValue>
+                <valueName>Order Supply</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Concierge</controllingFieldValue>
+                <valueName>Gift</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Courier Services</controllingFieldValue>
+                <valueName>Quotation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Courier Services</controllingFieldValue>
+                <valueName>Shipment Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Service</controllingFieldValue>
+                <valueName>Feedback</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Service</controllingFieldValue>
+                <valueName>Complaint</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Order Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Return Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Return Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Exchange Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Exchange Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Refund</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Refund Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Address Verification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>E-Gift Card</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Others</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reservation</controllingFieldValue>
+                <valueName>New Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reservation</controllingFieldValue>
+                <valueName>Existing Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reservation</controllingFieldValue>
+                <valueName>Cancel Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Product Details</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Concession</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Payment Link</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Credit Note</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Wish List</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Subject</fullName>

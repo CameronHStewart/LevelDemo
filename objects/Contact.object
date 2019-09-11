@@ -268,11 +268,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -401,6 +404,50 @@
     <fields>
         <fullName>Birthdate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Contact_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>Lead</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>VIP</fullName>
+                    <default>false</default>
+                    <label>VIP</label>
+                </value>
+                <value>
+                    <fullName>L1</fullName>
+                    <default>false</default>
+                    <label>L1</label>
+                </value>
+                <value>
+                    <fullName>L2</fullName>
+                    <default>false</default>
+                    <label>L2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Customer_Group__c</fullName>
@@ -539,6 +586,15 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>First_Spend_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>First Transaction Date</label>
+        <summarizedField>Transaction__c.Transaction_Date_Time__c</summarizedField>
+        <summaryForeignKey>Transaction__c.Contact__c</summaryForeignKey>
+        <summaryOperation>min</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>First_Visit__c</fullName>
         <externalId>false</externalId>
         <label>First Visit</label>
@@ -607,6 +663,15 @@
     </fields>
     <fields>
         <fullName>LastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Last_Transaction_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Transaction Date</label>
+        <summarizedField>Transaction__c.Transaction_Date_Time__c</summarizedField>
+        <summaryForeignKey>Transaction__c.Contact__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Last_Visit__c</fullName>
@@ -951,6 +1016,20 @@
         <label>WhatsApp Opt Out</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Year_to_Date_Spent__c</fullName>
+        <externalId>false</externalId>
+        <label>Year to Date Spent</label>
+        <summarizedField>Transaction__c.Total_Amount__c</summarizedField>
+        <summaryFilterItems>
+            <field>Transaction__c.Transaction_in_last_12_Months__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Transaction__c.Contact__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>

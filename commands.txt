@@ -1,0 +1,12 @@
+# https://readsalesforce.wordpress.com/2018/06/22/ant-migration-tool-installation-on-mac-for-salesforce-com-project-migrations-between-orgs/
+# https://pmd.github.io/
+
+# Retrieve
+ant retrieveUnpackaged -propertyfile source.properties
+
+
+# Deploy
+
+ant validate -propertyfile target.properties
+
+ant deployUnpackaged -propertyfile target.properties

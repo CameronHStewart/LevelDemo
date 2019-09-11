@@ -5,11 +5,24 @@
         <name>AssignmentRule</name>
     </types>
     <types>
+        <members>Case.Category__c</members>
+        <members>Case.Closed_Reason__c</members>
+        <members>Case.Customer_Satisfaction__c</members>
+        <members>Case.EntitlementId</members>
+        <members>Case.IsStopped</members>
+        <members>Case.MilestoneStatus</members>
+        <members>Case.MilestoneStatusIcon</members>
+        <members>Case.ProductId</members>
+        <members>Case.SlaExitDate</members>
+        <members>Case.SlaStartDate</members>
+        <members>Case.StopStartDate</members>
+        <members>Case.Subcategory__c</members>
         <members>Contact.AccountId</members>
         <members>Contact.Age_Range__c</members>
         <members>Contact.Arabic_First_Name__c</members>
         <members>Contact.Arabic_Last_Name__c</members>
         <members>Contact.Birthdate</members>
+        <members>Contact.Contact_Type__c</members>
         <members>Contact.Customer_Group__c</members>
         <members>Contact.Customer_Sub_Group__c</members>
         <members>Contact.Customer_Type__c</members>
@@ -19,10 +32,12 @@
         <members>Contact.Favourite_Coffee__c</members>
         <members>Contact.Favourite_Restaurant__c</members>
         <members>Contact.FirstName</members>
+        <members>Contact.First_Spend_Date__c</members>
         <members>Contact.First_Visit__c</members>
         <members>Contact.Gender__c</members>
         <members>Contact.Interests__c</members>
         <members>Contact.LastName</members>
+        <members>Contact.Last_Transaction_Date__c</members>
         <members>Contact.Last_Visit__c</members>
         <members>Contact.LeadSource</members>
         <members>Contact.Location_ID__c</members>
@@ -52,6 +67,7 @@
         <members>Contact.Transaction_Count__c</members>
         <members>Contact.Travelling__c</members>
         <members>Contact.WhatsApp_Opt_Out__c</members>
+        <members>Contact.Year_to_Date_Spent__c</members>
         <members>Product2.Baby_Junior__c</members>
         <members>Product2.Barcodes__c</members>
         <members>Product2.Class_ID__c</members>
@@ -97,6 +113,7 @@
         <members>Transaction__c.Customer_ID__c</members>
         <members>Transaction__c.Customer_Name__c</members>
         <members>Transaction__c.Invoice_Number__c</members>
+        <members>Transaction__c.Last_expiry__c</members>
         <members>Transaction__c.Sales_Associate_ID__c</members>
         <members>Transaction__c.Sales_Associate_Name__c</members>
         <members>Transaction__c.Store_City__c</members>
@@ -111,6 +128,7 @@
         <members>Transaction__c.Transaction_Number__c</members>
         <members>Transaction__c.Transaction_Sequence_Number__c</members>
         <members>Transaction__c.Transaction_Type__c</members>
+        <members>Transaction__c.Transaction_in_last_12_Months__c</members>
         <members>Transaction__c.Voucher_Number__c</members>
         <name>CustomField</name>
     </types>
@@ -123,7 +141,26 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>*</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Contact.Custom_Contact_Duplicate_Rule</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>Case_Record_Page3</members>
+        <members>Case_Record_Page4</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Selecting_Contact_Type_Automatically_Through_Transactions</members>
+        <members>X12_Months_Spend_Flag_On_Transaction</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>Case-Case Layout</members>
+        <members>CaseMilestone-Case Milestone Layout</members>
         <members>Contact-Contact Layout</members>
         <members>Product2-Product Layout</members>
         <members>Transaction_Item__c-Transaction Item Layout</members>
@@ -168,6 +205,9 @@
         <name>ServicePresenceStatus</name>
     </types>
     <types>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Entitlement</members>
         <members>LiveAgent</members>
         <members>OmniChannel</members>
         <name>Settings</name>
