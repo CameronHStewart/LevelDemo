@@ -905,4 +905,15 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Mandatory_fields_before_closing_the_case</fullName>
+        <active>true</active>
+        <description>Making closed reason, Category and Subcategory Mandatory on closing the case.</description>
+        <errorConditionFormula>AND( 
+TEXT( Status ) = &quot;Closed&quot;, 
+ISBLANK(TEXT(Closed_reason__c)),
+ISBLANK(TEXT(Category__c))
+)</errorConditionFormula>
+        <errorMessage>Please specify Closed Reason, Category and Subcategory when closing the case.</errorMessage>
+    </validationRules>
 </CustomObject>

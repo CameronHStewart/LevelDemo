@@ -66,6 +66,9 @@
         <label>myDecision11</label>
         <locationX>50</locationX>
         <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision14</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
             <name>myRule_12</name>
@@ -129,13 +132,65 @@
                 <leftValueReference>myVariable_current.Last_Transaction_Date__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_13_myRule_12_4439115518</elementReference>
+                    <elementReference>formula_13_myRule_12_6754151113</elementReference>
                 </rightValue>
             </conditions>
             <connector>
                 <targetReference>myRule_12_A1</targetReference>
             </connector>
             <label>shopped in &gt; 24M?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision14</name>
+        <label>myDecision14</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_15</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Year_to_Date_Spent__c</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>50000.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_15_A1</targetReference>
+            </connector>
+            <label>&gt; 50,000 AED in last 12 months</label>
         </rules>
     </decisions>
     <decisions>
@@ -215,7 +270,38 @@
                 <leftValueReference>myVariable_current.Last_Transaction_Date__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_4_myRule_3_3941956412</elementReference>
+                    <elementReference>formula_4_myRule_3_2785254927</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Year_to_Date_Spent__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>50000.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -301,7 +387,38 @@
                 <leftValueReference>myVariable_current.Last_Transaction_Date__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_7_myRule_6_8049595385</elementReference>
+                    <elementReference>formula_7_myRule_6_9095566654</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Year_to_Date_Spent__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>50000.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -387,7 +504,7 @@
                 <leftValueReference>myVariable_current.Last_Transaction_Date__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_10_myRule_9_8797621082</elementReference>
+                    <elementReference>formula_10_myRule_9_1088197599</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -404,7 +521,7 @@
                 <stringValue>ADDMONTHS(NOW(), -24) </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_10_myRule_9_8797621082</name>
+        <name>formula_10_myRule_9_1088197599</name>
         <dataType>DateTime</dataType>
         <expression>ADDMONTHS(NOW(), -24)</expression>
     </formulas>
@@ -415,7 +532,7 @@
                 <stringValue>ADDMONTHS(NOW(),-24) </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_13_myRule_12_4439115518</name>
+        <name>formula_13_myRule_12_6754151113</name>
         <dataType>DateTime</dataType>
         <expression>ADDMONTHS(NOW(),-24)</expression>
     </formulas>
@@ -426,7 +543,7 @@
                 <stringValue>ADDMONTHS(NOW(), -3) </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_4_myRule_3_3941956412</name>
+        <name>formula_4_myRule_3_2785254927</name>
         <dataType>DateTime</dataType>
         <expression>ADDMONTHS(NOW(), -3)</expression>
     </formulas>
@@ -437,11 +554,11 @@
                 <stringValue>ADDMONTHS(NOW(), -12) </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_7_myRule_6_8049595385</name>
+        <name>formula_7_myRule_6_9095566654</name>
         <dataType>DateTime</dataType>
         <expression>ADDMONTHS(NOW(), -12)</expression>
     </formulas>
-    <interviewLabel>Selecting_Contact_type_automatically_through_transactions-7_InterviewLabel</interviewLabel>
+    <interviewLabel>Selecting_Contact_type_automatically_through_transactions-11_InterviewLabel</interviewLabel>
     <label>Selecting Contact type automatically through transactions</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -544,6 +661,86 @@
             <field>Contact_Type__c</field>
             <value>
                 <stringValue>L2</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Contact]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_15_A1</name>
+        <label>Contact Type equal to VIP</label>
+        <locationX>1500</locationX>
+        <locationY>200</locationY>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Contact Type</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Contact_Type__c</field>
+            <value>
+                <stringValue>VIP</stringValue>
             </value>
         </inputAssignments>
         <object>Contact</object>
@@ -869,7 +1066,7 @@
         <object>Contact</object>
     </recordUpdates>
     <startElementReference>myDecision</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

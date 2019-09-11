@@ -73,9 +73,9 @@
                     </value>
                 </processMetadataValues>
                 <leftValueReference>myVariable_current.Transaction_Date_Time__c</leftValueReference>
-                <operator>LessThanOrEqualTo</operator>
+                <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_2_myRule_1_3066164995</elementReference>
+                    <elementReference>formula_2_myRule_1_3980581601</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -147,9 +147,9 @@
                     </value>
                 </processMetadataValues>
                 <leftValueReference>myVariable_current.Transaction_Date_Time__c</leftValueReference>
-                <operator>LessThanOrEqualTo</operator>
+                <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_2_myRule_1_3066164995</elementReference>
+                    <elementReference>formula_2_myRule_1_3980581601</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -165,7 +165,7 @@
                 <stringValue>ADDMONTHS(NOW(),-12)</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_2_myRule_1_3066164995</name>
+        <name>formula_2_myRule_1_3980581601</name>
         <dataType>DateTime</dataType>
         <expression>ADDMONTHS(NOW(),-12)</expression>
     </formulas>
@@ -176,11 +176,11 @@
                 <stringValue>[Transaction__c].Transaction_Date_Time__c + 365</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A1_7216732716</name>
+        <name>formula_3_myRule_1_A1_5016332803</name>
         <dataType>DateTime</dataType>
         <expression>{!myVariable_current.Transaction_Date_Time__c} + 365</expression>
     </formulas>
-    <interviewLabel>X12_months_Spend_Flag_on_Transaction-3_InterviewLabel</interviewLabel>
+    <interviewLabel>X12_months_Spend_Flag_on_Transaction-4_InterviewLabel</interviewLabel>
     <label>12 months Spend Flag on Transaction</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -285,7 +285,7 @@
             </processMetadataValues>
             <field>Last_expiry__c</field>
             <value>
-                <elementReference>formula_3_myRule_1_A1_7216732716</elementReference>
+                <elementReference>formula_3_myRule_1_A1_5016332803</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
