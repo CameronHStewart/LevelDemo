@@ -20,7 +20,7 @@
             <type>email</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Case_Resolved</template>
+        <template>Customer_Service_Automated_Emails/Case_Resolved</template>
     </alerts>
     <rules>
         <fullName>Case Resolved</fullName>

@@ -158,7 +158,8 @@
         <name>DuplicateRule</name>
     </types>
     <types>
-        <members>unfiled$public/Case_Resolved</members>
+        <members>Customer_Service_Automated_Emails</members>
+        <members>Customer_Service_Automated_Emails/Case_Resolved</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -195,6 +196,10 @@
         <members>Transaction_Item__c-Transaction Item Layout</members>
         <members>Transaction__c-Transaction Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Service_Letter_Head</members>
+        <name>LetterHead</name>
     </types>
     <types>
         <members>Guest_Services</members>
