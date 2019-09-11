@@ -12,6 +12,7 @@
     <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
     <defaultCaseOwner>ahmed.samy.1@levelshoes.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>ahmed.samy.1@levelshoes.com</defaultCaseUser>
     <emailToCase>
         <enableE2CSourceTracking>true</enableE2CSourceTracking>
         <enableEmailToCase>true</enableEmailToCase>
@@ -52,7 +53,7 @@
     <showFewerCloseActions>false</showFewerCloseActions>
     <systemUserEmail>hpang@00d4j000000gvrguaw</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
-    <useSystemUserAsDefaultCaseUser>true</useSystemUserAsDefaultCaseUser>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
         <enableWebToCase>true</enableWebToCase>
     </webToCase>

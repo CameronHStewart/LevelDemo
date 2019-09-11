@@ -86,6 +86,10 @@
                 <behavior>Readonly</behavior>
                 <field>Year_to_Date_Spent__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Preferred_Name__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

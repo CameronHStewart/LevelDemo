@@ -382,6 +382,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Preferred_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Preferred_Sales_Associate__c</field>
         <readable>false</readable>
     </fieldPermissions>
