@@ -185,12 +185,6 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>Selecting_Contact_type_automatically_based_on_transactions_made</members>
-        <members>Selecting_Contact_type_automatically_through_transactions</members>
-        <members>X12_months_Spend_Flag_on_Transaction</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
         <members>Account-Account Layout</members>
         <members>Case-Case Layout</members>
         <members>Case-Custom Case Layout</members>
