@@ -909,10 +909,14 @@
         <fullName>Mandatory_fields_before_closing_the_case</fullName>
         <active>true</active>
         <description>Making closed reason, Category and Subcategory Mandatory on closing the case.</description>
-        <errorConditionFormula>TEXT( Status ) = &quot;Closed&quot;&amp;&amp;
-ISBLANK(TEXT(Closed_reason__c)) ||
-ISBLANK(TEXT(Category__c)) ||
-ISBLANK(TEXT(Subcategory__c))</errorConditionFormula>
+        <errorConditionFormula>AND( 
+TEXT( Status ) = &quot;Closed&quot;, 
+OR(
+ISBLANK(TEXT(Closed_reason__c)),
+ISBLANK(TEXT(Category__c)),
+ISBLANK(TEXT(Subcategory__c))
+)
+)</errorConditionFormula>
         <errorMessage>Please specify Closed Reason, Category and Subcategory when closing the case.</errorMessage>
     </validationRules>
 </CustomObject>

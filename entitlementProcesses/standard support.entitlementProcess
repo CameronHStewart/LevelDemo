@@ -10,19 +10,186 @@
         <value>true</value>
     </exitCriteriaFilterItems>
     <milestones>
-        <criteriaBooleanFilter>1 OR 2</criteriaBooleanFilter>
+        <criteriaBooleanFilter>(1 AND (((2 OR 3) OR (4 OR 5)) OR ((6 OR 7) OR 8)))</criteriaBooleanFilter>
         <milestoneCriteriaFilterItems>
             <field>Case.Origin</field>
             <operation>equals</operation>
-            <value>Email</value>
+            <value>Email, Website, Chat</value>
         </milestoneCriteriaFilterItems>
         <milestoneCriteriaFilterItems>
-            <field>Case.Origin</field>
+            <field>Case.Category__c</field>
             <operation>equals</operation>
-            <value>Web</value>
+            <value>Amenities</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Shopping</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Concierge</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Courier Services</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Customer Service</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>E-Commerce</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Reservation</value>
         </milestoneCriteriaFilterItems>
         <milestoneName>1st Contact Completed</milestoneName>
         <minutesToComplete>480</minutesToComplete>
         <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Reservation</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Create New Reservation</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <criteriaBooleanFilter>1 AND 2</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Category__c</field>
+            <operation>equals</operation>
+            <value>Reservation</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Existing Reservation</milestoneName>
+        <minutesToComplete>2880</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Return Request</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Initiate Return</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Exchange Request</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Initiate Exchange</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <criteriaBooleanFilter>1 AND 2</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Refund</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Initiate Refund</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Refund</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Refund E gift card</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Refund</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Refund Store Credit</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Refund</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Refund Credit Card</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Website, Chat</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Subcategory__c</field>
+            <operation>equals</operation>
+            <value>Return Request</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Return Local complete</milestoneName>
+        <minutesToComplete>10080</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
     </milestones>
 </EntitlementProcess>

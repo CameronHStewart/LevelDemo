@@ -175,6 +175,7 @@
         <members>Case_Record_Page3</members>
         <members>Case_Record_Page4</members>
         <members>Contact_Record_Page</members>
+        <members>Transaction_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -190,6 +191,7 @@
         <name>FlowDefinition</name>
     </types>
     <types>
+        <members>Account-Account Layout</members>
         <members>Case-Case Layout</members>
         <members>Case-Custom Case Layout</members>
         <members>CaseClose-Close Case Layout</members>

@@ -816,6 +816,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Case-Custom Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
