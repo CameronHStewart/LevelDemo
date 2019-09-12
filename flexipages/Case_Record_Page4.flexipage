@@ -4,7 +4,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>collapsed</name>
-                <value>true</value>
+                <value>false</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>hideChatterActions</name>
@@ -12,7 +12,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>numVisibleActions</name>
-                <value>1</value>
+                <value>3</value>
             </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
@@ -149,17 +149,6 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>lookupFieldName</name>
-                <value>Id</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>updateQuickActionName</name>
-                <value>Case._LightningUpdateCase</value>
-            </componentInstanceProperties>
-            <componentName>console:relatedRecord</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>lookupFieldName</name>
                 <value>ContactId</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
@@ -167,17 +156,6 @@
                 <value>Contact._LightningRelatedContact</value>
             </componentInstanceProperties>
             <componentName>console:relatedRecord</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>parentFieldApiName</name>
-                <value>Case.ContactId</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>relatedListApiName</name>
-                <value>Cases</value>
-            </componentInstanceProperties>
-            <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
         <name>sidebar</name>
         <type>Region</type>
