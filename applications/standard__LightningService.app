@@ -49,6 +49,7 @@
     <tabs>standard-home</tabs>
     <tabs>standard-LightningQuickText</tabs>
     <tabs>Landing_Page</tabs>
+    <tabs>Transaction__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -57,6 +58,9 @@
         </mappings>
         <mappings>
             <tab>Landing_Page</tab>
+        </mappings>
+        <mappings>
+            <tab>Transaction__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

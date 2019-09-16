@@ -193,6 +193,16 @@
         <type>Currency</type>
     </fields>
     <fields>
+        <fullName>External_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Item_ID__c</fullName>
         <externalId>false</externalId>
         <label>Item ID</label>

@@ -228,6 +228,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>External_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Family</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>

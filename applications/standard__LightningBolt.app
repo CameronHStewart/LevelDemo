@@ -16,5 +16,6 @@
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
     <tabs>Landing_Page</tabs>
+    <tabs>Transaction__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

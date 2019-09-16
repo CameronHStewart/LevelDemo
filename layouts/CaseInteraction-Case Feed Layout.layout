@@ -112,6 +112,10 @@
                 <behavior>Edit</behavior>
                 <field>Subcategory__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Customer_Satisfaction_Visual__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>

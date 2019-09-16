@@ -36,5 +36,6 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>Landing_Page</tabs>
+    <tabs>Transaction__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

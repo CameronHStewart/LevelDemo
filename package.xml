@@ -30,6 +30,8 @@
         <members>Contact.Arabic_First_Name__c</members>
         <members>Contact.Arabic_Last_Name__c</members>
         <members>Contact.Birthdate</members>
+        <members>Contact.Blocked__c</members>
+        <members>Contact.CDH_ID__c</members>
         <members>Contact.Contact_Type__c</members>
         <members>Contact.Customer_Group__c</members>
         <members>Contact.Customer_Sub_Group__c</members>
@@ -37,6 +39,7 @@
         <members>Contact.DoNotCall</members>
         <members>Contact.Email</members>
         <members>Contact.Email_Opt_Out__c</members>
+        <members>Contact.Employee_Number__c</members>
         <members>Contact.Favourite_Coffee__c</members>
         <members>Contact.Favourite_Restaurant__c</members>
         <members>Contact.FirstName</members>
@@ -49,6 +52,7 @@
         <members>Contact.Last_Visit__c</members>
         <members>Contact.LeadSource</members>
         <members>Contact.Location_ID__c</members>
+        <members>Contact.Magento_ID__c</members>
         <members>Contact.MailingCity</members>
         <members>Contact.MailingCountry</members>
         <members>Contact.MailingPostalCode</members>
@@ -61,6 +65,7 @@
         <members>Contact.Nationality__c</members>
         <members>Contact.Occupation__c</members>
         <members>Contact.OtherPhone</members>
+        <members>Contact.Phone_Email__c</members>
         <members>Contact.Preferred_Brand__c</members>
         <members>Contact.Preferred_Communication_Channel__c</members>
         <members>Contact.Preferred_Contact_Method__c</members>
@@ -75,6 +80,8 @@
         <members>Contact.Transaction_Count__c</members>
         <members>Contact.Travelling__c</members>
         <members>Contact.WhatsApp_Opt_Out__c</members>
+        <members>Contact.Working_Company__c</members>
+        <members>Contact.XStore_ID__c</members>
         <members>Contact.Year_to_Date_Spent__c</members>
         <members>Product2.Baby_Junior__c</members>
         <members>Product2.Barcodes__c</members>

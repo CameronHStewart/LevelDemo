@@ -43,11 +43,15 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>Landing_Page</tabs>
+    <tabs>Transaction__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Landing_Page</tab>
+        </mappings>
+        <mappings>
+            <tab>Transaction__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
