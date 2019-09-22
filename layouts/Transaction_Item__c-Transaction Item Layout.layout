@@ -16,19 +16,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Product__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Purchase_Name__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Item_ID__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Item__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -77,6 +69,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>External_ID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Item__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>

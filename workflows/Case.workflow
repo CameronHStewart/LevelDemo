@@ -22,6 +22,15 @@
         <senderType>CurrentUser</senderType>
         <template>Customer_Service_Automated_Emails/Case_Resolved</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>Update_Last_Inbound_Email_Date</fullName>
+        <field>Last_Inbound_Email_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Update Last Inbound Email Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
     <rules>
         <fullName>Case Resolved</fullName>
         <actions>

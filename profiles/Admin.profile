@@ -66,6 +66,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Communication_after_Case_Closed_Flag__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
@@ -104,6 +109,11 @@
         <editable>false</editable>
         <field>Case.IsStopped</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Last_Inbound_Email_Date__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -522,6 +532,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Speedbus_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Spend_to_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -738,11 +753,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Transaction_Item__c.Item__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Transaction_Item__c.Product__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

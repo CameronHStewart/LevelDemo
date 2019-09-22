@@ -76,6 +76,7 @@
         <members>Contact.SMS_Opt_Out__c</members>
         <members>Contact.Salutation</members>
         <members>Contact.Shoe_Size__c</members>
+        <members>Contact.Speedbus_ID__c</members>
         <members>Contact.Spend_to_Date__c</members>
         <members>Contact.Transaction_Count__c</members>
         <members>Contact.Travelling__c</members>
@@ -111,7 +112,6 @@
         <members>Transaction_Item__c.Item_Quantity__c</members>
         <members>Transaction_Item__c.Item_Sequence_Number__c</members>
         <members>Transaction_Item__c.Item__c</members>
-        <members>Transaction_Item__c.Product__c</members>
         <members>Transaction_Item__c.Purchase_Name__c</members>
         <members>Transaction_Item__c.Retail_Price__c</members>
         <members>Transaction_Item__c.Sales_Associate_ID__c</members>

@@ -88,6 +88,10 @@
                 <behavior>Edit</behavior>
                 <field>Phone_Email__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Speedbus_ID__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -1219,6 +1219,13 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Speedbus_ID__c</fullName>
+        <displayFormat>SB-{0000000}</displayFormat>
+        <externalId>true</externalId>
+        <label>Speedbus_ID</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>Spend_to_Date__c</fullName>
         <externalId>false</externalId>
         <label>Spend to Date</label>

@@ -38,6 +38,14 @@
                 <behavior>Readonly</behavior>
                 <field>Customer_Satisfaction_Visual__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Last_Inbound_Email_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Communication_after_Case_Closed_Flag__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
