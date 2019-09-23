@@ -67,10 +67,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Customer_ID__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Customer_Name__c</field>
             </layoutItems>
             <layoutItems>

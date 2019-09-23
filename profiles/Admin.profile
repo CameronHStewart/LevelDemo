@@ -737,11 +737,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Transaction_Item__c.Item_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Transaction_Item__c.Item_Quantity__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -808,11 +803,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Transaction__c.Coupon_Number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Transaction__c.Customer_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

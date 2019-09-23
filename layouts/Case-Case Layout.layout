@@ -203,6 +203,11 @@
             <actionType>QuickAction</actionType>
             <sortOrder>3</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Send_an_Email</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
@@ -216,6 +221,9 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Case.SocialPublisher</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Send_an_Email</quickActionName>
         </quickActionListItems>
     </quickActionList>
     <relatedContent>

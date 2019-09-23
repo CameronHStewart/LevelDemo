@@ -108,7 +108,6 @@
         <members>Transaction_Item__c.Discount_Reason_Code__c</members>
         <members>Transaction_Item__c.Discount_Reason_Comment__c</members>
         <members>Transaction_Item__c.Discounted_Price__c</members>
-        <members>Transaction_Item__c.Item_ID__c</members>
         <members>Transaction_Item__c.Item_Quantity__c</members>
         <members>Transaction_Item__c.Item_Sequence_Number__c</members>
         <members>Transaction_Item__c.Item__c</members>
@@ -125,7 +124,6 @@
         <members>Transaction__c.Cashier_Name__c</members>
         <members>Transaction__c.Contact__c</members>
         <members>Transaction__c.Coupon_Number__c</members>
-        <members>Transaction__c.Customer_ID__c</members>
         <members>Transaction__c.Customer_Name__c</members>
         <members>Transaction__c.Invoice_Number__c</members>
         <members>Transaction__c.Last_expiry__c</members>
