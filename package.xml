@@ -81,6 +81,7 @@
         <members>Contact.Marital_Status__c</members>
         <members>Contact.MiddleName</members>
         <members>Contact.MobilePhone</members>
+        <members>Contact.Muse_ID__c</members>
         <members>Contact.Name</members>
         <members>Contact.Nationality__c</members>
         <members>Contact.Occupation__c</members>
