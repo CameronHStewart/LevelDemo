@@ -881,6 +881,5 @@
         <readable>false</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Chat</label>
-    <license>Salesforce</license>
+    <label>Messaging</label>
 </PermissionSet>

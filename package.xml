@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>AppSwitcher</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
         <members>Case.Default Assignment</members>
         <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Letterhead</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Letterhead</members>
+        <name>ContentAsset</name>
     </types>
     <types>
         <members>Sales</members>
@@ -10,6 +22,14 @@
         <members>standard__LightningSales</members>
         <members>standard__LightningSalesConsole</members>
         <members>standard__LightningService</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Level_Shoes</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Level_Shoes</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -154,11 +174,51 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>QuickText</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>*</members>
         <name>CustomPermission</name>
     </types>
     <types>
+        <members>Transaction__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Transaction__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>LevelShoesServiceDashboards</members>
+        <members>LevelShoesServiceDashboards/egqvVgEEmjBzMNXZsZiXztHJyqVfSg</members>
+        <members>LevelShoesServiceDashboards/ewgRHdjXdcdOqaoUoPyDRVSRZLcpwX</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>LevelShoesServiceDashboards</members>
+        <members>LevelShoesServiceDashboards/egqvVgEEmjBzMNXZsZiXztHJyqVfSg</members>
+        <members>LevelShoesServiceDashboards/ewgRHdjXdcdOqaoUoPyDRVSRZLcpwX</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>SharedDocuments/Level_Shoes_Example.png</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>SharedDocuments/Angry.png</members>
+        <members>SharedDocuments/Happy.png</members>
+        <members>SharedDocuments/Neutral.png</members>
+        <members>SharedDocuments/Unhappy.png</members>
+        <members>SharedDocuments/Very_Happy.png</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>SharedDocuments/Angry.png</members>
+        <members>SharedDocuments/Happy.png</members>
+        <members>SharedDocuments/Neutral.png</members>
+        <members>SharedDocuments/Unhappy.png</members>
+        <members>SharedDocuments/Very_Happy.png</members>
         <name>Document</name>
     </types>
     <types>
@@ -168,6 +228,10 @@
     </types>
     <types>
         <members>Customer_Service_Automated_Emails</members>
+        <members>Customer_Service_Automated_Emails/Case_Resolved</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>Customer_Service_Automated_Emails/Case_Resolved</members>
         <name>EmailTemplate</name>
     </types>
@@ -183,10 +247,31 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Home_Page_Default</members>
+        <members>Level_Shoes_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Level_Shoes_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>Selecting_Contact_Type_Automatically_Through_Transactions</members>
         <members>Selecting_Contact_type_automatically_based_on_transactions_made</members>
         <members>X12_Months_Spend_Flag_On_Transaction</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <members>Selecting_Contact_type_automatically_through_transactions</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Selecting_Contact_type_automatically_through_transactions</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
     </types>
     <types>
         <members>Account-Account Layout</members>
@@ -199,6 +284,16 @@
         <members>Product2-Product Layout</members>
         <members>Transaction_Item__c-Transaction Item Layout</members>
         <members>Transaction__c-Transaction Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Asset-Asset Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Case-Custom Case Layout</members>
+        <members>CaseInteraction-Case Feed Layout</members>
+        <members>Contact-Contact Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -255,12 +350,68 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Messaging</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Chat_Available</members>
         <name>PresenceUserConfig</name>
     </types>
     <types>
+        <members>CPQ Integration User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Guest License User</members>
+        <members>Level Shoes Service Agent</members>
+        <members>Level Shoes Service Manager</members>
+        <members>MarketingProfile</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Admin</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>CPQ Integration User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Guest License User</members>
+        <members>Level Shoes Service Agent</members>
+        <members>Level Shoes Service Manager</members>
+        <members>MarketingProfile</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Service_Manager_profilePasswordPolicy1568792990573</members>
+        <members>Level_Shoes_Service_User_profilePasswordPolicy1568533125245</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Service_Manager_profilePasswordPolicy1568792990573</members>
+        <members>Level_Shoes_Service_User_profilePasswordPolicy1568533125245</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Service_User_profileSessionSetting1568533125440</members>
+        <members>null_profileSessionSetting1568792990701</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>Level_Shoes_Service_User_profileSessionSetting1568533125440</members>
+        <members>null_profileSessionSetting1568792990701</members>
+        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Chat</members>
@@ -270,6 +421,34 @@
     <types>
         <members>Chat_Guest_Services</members>
         <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>Send_an_Email</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Send_an_Email</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>LevelShoesAgentKPIDashboardReports</members>
+        <members>LevelShoesAgentKPIDashboardReports/Cases_Closed_by_Agent</members>
+        <members>LevelShoesAgentKPIDashboardReports/Cases_by_Type_and_Statuses_DSy</members>
+        <members>LevelShoesAgentKPIDashboardReports/No_of_Cases_by_Origin_cXX</members>
+        <members>LevelShoesServiceCenterKPIReports</members>
+        <members>LevelShoesServiceCenterKPIReports/Avg_Case_Resolution_Time_by_Origin_LmN</members>
+        <members>Service_Dashboards_Reports/Case_Resolution_Time_MTD_by_Origin</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>LevelShoesAgentKPIDashboardReports</members>
+        <members>LevelShoesAgentKPIDashboardReports/Cases_Closed_by_Agent</members>
+        <members>LevelShoesAgentKPIDashboardReports/Cases_by_Type_and_Statuses_DSy</members>
+        <members>LevelShoesAgentKPIDashboardReports/No_of_Cases_by_Origin_cXX</members>
+        <members>LevelShoesServiceCenterKPIReports</members>
+        <members>LevelShoesServiceCenterKPIReports/Avg_Case_Resolution_Time_by_Origin_LmN</members>
+        <members>Service_Dashboards_Reports/Case_Resolution_Time_MTD_by_Origin</members>
+        <name>Report</name>
     </types>
     <types>
         <members>Accounts_with_Entitlements_with_Contacts</members>
@@ -290,12 +469,31 @@
         <name>Workflow</name>
     </types>
     <types>
+        <members>EmailMessage</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>EmailMessage</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Admin</members>
         <members>Case</members>
         <members>Company</members>
         <members>Entitlement</members>
+        <members>LevelShoesAgentKPIDashboardReports</members>
         <members>LiveAgent</members>
         <members>OmniChannel</members>
         <name>Settings</name>
     </types>
-    <version>46.0</version>
+    <types>
+        <members>Admin</members>
+        <members>EmailAdministration</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>EmailAdministration</members>
+        <name>Settings</name>
+    </types>
+    <version>47.0</version>
 </Package>
