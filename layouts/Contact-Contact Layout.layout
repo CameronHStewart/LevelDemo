@@ -94,6 +94,10 @@
                 <behavior>Readonly</behavior>
                 <field>Speedbus_ID__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Muse_ID__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

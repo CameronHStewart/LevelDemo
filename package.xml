@@ -61,6 +61,7 @@
         <members>Contact.Marital_Status__c</members>
         <members>Contact.MiddleName</members>
         <members>Contact.MobilePhone</members>
+        <members>Contact.Muse_ID__c</members>
         <members>Contact.Name</members>
         <members>Contact.Nationality__c</members>
         <members>Contact.Occupation__c</members>
@@ -82,7 +83,6 @@
         <members>Contact.Travelling__c</members>
         <members>Contact.WhatsApp_Opt_Out__c</members>
         <members>Contact.Working_Company__c</members>
-        <members>Contact.Muse_ID__c</members>
         <members>Contact.XStore_ID__c</members>
         <members>Contact.Year_to_Date_Spent__c</members>
         <members>Product2.Baby_Junior__c</members>
