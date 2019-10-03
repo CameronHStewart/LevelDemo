@@ -270,14 +270,20 @@
                     <label>E-Commerce</label>
                 </value>
                 <value>
-                    <fullName>Reservation</fullName>
-                    <default>false</default>
-                    <label>Reservation</label>
-                </value>
-                <value>
                     <fullName>Shopping</fullName>
                     <default>false</default>
                     <label>Shopping</label>
+                </value>
+                <value>
+                    <fullName>Miscellaneous</fullName>
+                    <default>false</default>
+                    <label>Miscellaneous</label>
+                </value>
+                <value>
+                    <fullName>Reservation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Reservation</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -449,6 +455,26 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>First_Contact_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>First Contact Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>In_Warning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>In Warning</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -483,6 +509,441 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
     <fields>
         <fullName>MilestoneStatusIcon</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Milestone_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Milestone Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Subcategory__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2. Item Stock Check</fullName>
+                    <default>false</default>
+                    <label>2. Item Stock Check</label>
+                </value>
+                <value>
+                    <fullName>3. Payment</fullName>
+                    <default>false</default>
+                    <label>3. Payment</label>
+                </value>
+                <value>
+                    <fullName>4. Order Confirmation</fullName>
+                    <default>false</default>
+                    <label>4. Order Confirmation</label>
+                </value>
+                <value>
+                    <fullName>2. Existing Reservation</fullName>
+                    <default>false</default>
+                    <label>2. Existing Reservation</label>
+                </value>
+                <value>
+                    <fullName>2. Return Local - RMA</fullName>
+                    <default>false</default>
+                    <label>2. Return Local - RMA</label>
+                </value>
+                <value>
+                    <fullName>3. Return Local - Courier Pickup</fullName>
+                    <default>false</default>
+                    <label>3. Return Local - Courier Pickup</label>
+                </value>
+                <value>
+                    <fullName>4. Return Local - Item received</fullName>
+                    <default>false</default>
+                    <label>4. Return Local - Item received</label>
+                </value>
+                <value>
+                    <fullName>5. Return Local - Item Quality Check</fullName>
+                    <default>false</default>
+                    <label>5. Return Local - Item Quality Check</label>
+                </value>
+                <value>
+                    <fullName>6. Return Local - Complete</fullName>
+                    <default>false</default>
+                    <label>6. Return Local - Complete</label>
+                </value>
+                <value>
+                    <fullName>2. Return International</fullName>
+                    <default>false</default>
+                    <label>2. Return International</label>
+                </value>
+                <value>
+                    <fullName>3. Return International - Security &amp; Department</fullName>
+                    <default>false</default>
+                    <label>3. Return International - Security &amp; Department</label>
+                </value>
+                <value>
+                    <fullName>4. Return International - Confirm received</fullName>
+                    <default>false</default>
+                    <label>4. Return International - Confirm received</label>
+                </value>
+                <value>
+                    <fullName>5. Return International - Item Quality Check</fullName>
+                    <default>false</default>
+                    <label>5. Return International - Item Quality Check</label>
+                </value>
+                <value>
+                    <fullName>6. Return International - Complete</fullName>
+                    <default>false</default>
+                    <label>6. Return International - Complete</label>
+                </value>
+                <value>
+                    <fullName>2. Exchange Local - RMA</fullName>
+                    <default>false</default>
+                    <label>2. Exchange Local - RMA</label>
+                </value>
+                <value>
+                    <fullName>3. Exchange Local - Courier Pickup</fullName>
+                    <default>false</default>
+                    <label>3. Exchange Local - Courier Pickup</label>
+                </value>
+                <value>
+                    <fullName>4. Exchange Local - Item received</fullName>
+                    <default>false</default>
+                    <label>4. Exchange Local - Item received</label>
+                </value>
+                <value>
+                    <fullName>5. Exchange Local - Item Quality Check</fullName>
+                    <default>false</default>
+                    <label>5. Exchange Local - Item Quality Check</label>
+                </value>
+                <value>
+                    <fullName>6. Exchange Local - Item dispatched</fullName>
+                    <default>false</default>
+                    <label>6. Exchange Local - Item dispatched</label>
+                </value>
+                <value>
+                    <fullName>2. Send Exchange Details</fullName>
+                    <default>false</default>
+                    <label>2. Send Exchange Details</label>
+                </value>
+                <value>
+                    <fullName>3. Exchange International - Security &amp; Department</fullName>
+                    <default>false</default>
+                    <label>3. Exchange International - Security &amp; Department</label>
+                </value>
+                <value>
+                    <fullName>4. Exchange International - Confirm received</fullName>
+                    <default>false</default>
+                    <label>4. Exchange International - Confirm received</label>
+                </value>
+                <value>
+                    <fullName>5. Exchange International - Item Quality Check</fullName>
+                    <default>false</default>
+                    <label>5. Exchange International - Item Quality Check</label>
+                </value>
+                <value>
+                    <fullName>6. Exchange International - Item dispatched</fullName>
+                    <default>false</default>
+                    <label>6. Exchange International - Item dispatched</label>
+                </value>
+                <value>
+                    <fullName>2. Initiate Refund - Ecomm</fullName>
+                    <default>false</default>
+                    <label>2. Initiate Refund - Ecomm</label>
+                </value>
+                <value>
+                    <fullName>3. Refund Confirmation</fullName>
+                    <default>false</default>
+                    <label>3. Refund Confirmation</label>
+                </value>
+                <value>
+                    <fullName>2. Confirm Address</fullName>
+                    <default>false</default>
+                    <label>2. Confirm Address</label>
+                </value>
+                <value>
+                    <fullName>2. Repair</fullName>
+                    <default>false</default>
+                    <label>2. Repair</label>
+                </value>
+                <value>
+                    <fullName>2. Create Booking</fullName>
+                    <default>false</default>
+                    <label>2. Create Booking</label>
+                </value>
+                <value>
+                    <fullName>3. Confirm Booking</fullName>
+                    <default>false</default>
+                    <label>3. Confirm Booking</label>
+                </value>
+                <value>
+                    <fullName>2. Cancel Booking</fullName>
+                    <default>false</default>
+                    <label>2. Cancel Booking</label>
+                </value>
+                <value>
+                    <fullName>3. Confirm Cancellation</fullName>
+                    <default>false</default>
+                    <label>3. Confirm Cancellation</label>
+                </value>
+                <value>
+                    <fullName>2. Check Order Status - Ecomm</fullName>
+                    <default>false</default>
+                    <label>2. Check Order Status - Ecomm</label>
+                </value>
+                <value>
+                    <fullName>3. Confirm Order Status</fullName>
+                    <default>false</default>
+                    <label>3. Confirm Order Status</label>
+                </value>
+                <value>
+                    <fullName>2. Cancel Order - Ecomm</fullName>
+                    <default>false</default>
+                    <label>2. Cancel Order - Ecomm</label>
+                </value>
+                <value>
+                    <fullName>2. Account Issue</fullName>
+                    <default>false</default>
+                    <label>2. Account Issue</label>
+                </value>
+                <value>
+                    <fullName>2. All</fullName>
+                    <default>false</default>
+                    <label>2. All</label>
+                </value>
+                <value>
+                    <fullName>5. Item Pick Up</fullName>
+                    <default>false</default>
+                    <label>5. Item Pick Up</label>
+                </value>
+                <value>
+                    <fullName>1. First Contact</fullName>
+                    <default>false</default>
+                    <label>1. First Contact</label>
+                </value>
+                <value>
+                    <fullName>Done</fullName>
+                    <default>false</default>
+                    <label>Done</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Gift Wrapping and Gift Card</controllingFieldValue>
+                <controllingFieldValue>Gift Card</controllingFieldValue>
+                <controllingFieldValue>The Cobbler</controllingFieldValue>
+                <controllingFieldValue>Bookings</controllingFieldValue>
+                <controllingFieldValue>International Shipment</controllingFieldValue>
+                <controllingFieldValue>Quotation</controllingFieldValue>
+                <controllingFieldValue>Shipment Status</controllingFieldValue>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <controllingFieldValue>Click &amp; Collect</controllingFieldValue>
+                <controllingFieldValue>Order Supply</controllingFieldValue>
+                <controllingFieldValue>Complaint</controllingFieldValue>
+                <controllingFieldValue>Gift</controllingFieldValue>
+                <controllingFieldValue>Order Status</controllingFieldValue>
+                <controllingFieldValue>Anonymous Calls</controllingFieldValue>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <controllingFieldValue>Order Cancellation</controllingFieldValue>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <controllingFieldValue>Art of Shaving</controllingFieldValue>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <controllingFieldValue>Margaret Dabbs</controllingFieldValue>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <controllingFieldValue>Cancellation</controllingFieldValue>
+                <controllingFieldValue>Refund Local</controllingFieldValue>
+                <controllingFieldValue>Refund International</controllingFieldValue>
+                <controllingFieldValue>Address Verification</controllingFieldValue>
+                <controllingFieldValue>E-Gift Card</controllingFieldValue>
+                <controllingFieldValue>Product Details</controllingFieldValue>
+                <controllingFieldValue>Concession</controllingFieldValue>
+                <controllingFieldValue>Payment Link</controllingFieldValue>
+                <controllingFieldValue>Credit Note</controllingFieldValue>
+                <controllingFieldValue>Wish List</controllingFieldValue>
+                <controllingFieldValue>New Reservation</controllingFieldValue>
+                <controllingFieldValue>Existing Reservation</controllingFieldValue>
+                <controllingFieldValue>Cancel Reservation</controllingFieldValue>
+                <controllingFieldValue>Feedback</controllingFieldValue>
+                <controllingFieldValue>General Enquiry</controllingFieldValue>
+                <controllingFieldValue>Account</controllingFieldValue>
+                <valueName>Done</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>The Cobbler</controllingFieldValue>
+                <controllingFieldValue>Address Verification</controllingFieldValue>
+                <valueName>2. Confirm Address</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>The Cobbler</controllingFieldValue>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <controllingFieldValue>Click &amp; Collect</controllingFieldValue>
+                <controllingFieldValue>Order Supply</controllingFieldValue>
+                <controllingFieldValue>Gift</controllingFieldValue>
+                <controllingFieldValue>Order Status</controllingFieldValue>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <controllingFieldValue>Order Cancellation</controllingFieldValue>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <controllingFieldValue>Art of Shaving</controllingFieldValue>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <controllingFieldValue>Margaret Dabbs</controllingFieldValue>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <controllingFieldValue>Refund International</controllingFieldValue>
+                <controllingFieldValue>Address Verification</controllingFieldValue>
+                <controllingFieldValue>New Reservation</controllingFieldValue>
+                <controllingFieldValue>Existing Reservation</controllingFieldValue>
+                <controllingFieldValue>Account</controllingFieldValue>
+                <valueName>1. First Contact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <controllingFieldValue>Click &amp; Collect</controllingFieldValue>
+                <controllingFieldValue>Order Supply</controllingFieldValue>
+                <controllingFieldValue>Gift</controllingFieldValue>
+                <valueName>2. All</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Status</controllingFieldValue>
+                <valueName>2. Check Order Status - Ecomm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Status</controllingFieldValue>
+                <valueName>3. Confirm Order Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <valueName>2. Return Local - RMA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <valueName>3. Return Local - Courier Pickup</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <valueName>4. Return Local - Item received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <valueName>5. Return Local - Item Quality Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return Local</controllingFieldValue>
+                <valueName>6. Return Local - Complete</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Cancellation</controllingFieldValue>
+                <controllingFieldValue>Cancellation</controllingFieldValue>
+                <valueName>3. Confirm Cancellation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Cancellation</controllingFieldValue>
+                <valueName>2. Cancel Order - Ecomm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <valueName>2. Return International</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <valueName>3. Return International - Security &amp; Department</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <valueName>4. Return International - Confirm received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <valueName>5. Return International - Item Quality Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Return International</controllingFieldValue>
+                <valueName>6. Return International - Complete</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Art of Shaving</controllingFieldValue>
+                <controllingFieldValue>Margaret Dabbs</controllingFieldValue>
+                <valueName>2. Create Booking</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Art of Shaving</controllingFieldValue>
+                <controllingFieldValue>Margaret Dabbs</controllingFieldValue>
+                <valueName>3. Confirm Booking</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <valueName>2. Exchange Local - RMA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <valueName>3. Exchange Local - Courier Pickup</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <valueName>4. Exchange Local - Item received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <valueName>5. Exchange Local - Item Quality Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange Local</controllingFieldValue>
+                <valueName>6. Exchange Local - Item dispatched</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <valueName>2. Send Exchange Details</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <valueName>3. Exchange International - Security &amp; Department</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <valueName>4. Exchange International - Confirm received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <valueName>5. Exchange International - Item Quality Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exchange International</controllingFieldValue>
+                <valueName>6. Exchange International - Item dispatched</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cancellation</controllingFieldValue>
+                <valueName>2. Cancel Booking</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Refund Local</controllingFieldValue>
+                <controllingFieldValue>Refund International</controllingFieldValue>
+                <valueName>2. Initiate Refund - Ecomm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Refund Local</controllingFieldValue>
+                <controllingFieldValue>Refund International</controllingFieldValue>
+                <valueName>3. Refund Confirmation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>New Reservation</controllingFieldValue>
+                <valueName>2. Item Stock Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>New Reservation</controllingFieldValue>
+                <valueName>3. Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>New Reservation</controllingFieldValue>
+                <valueName>4. Order Confirmation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>New Reservation</controllingFieldValue>
+                <valueName>5. Item Pick Up</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Existing Reservation</controllingFieldValue>
+                <valueName>2. Existing Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Account</controllingFieldValue>
+                <valueName>2. Account Issue</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Origin</fullName>
@@ -624,34 +1085,34 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
                     <label>Order Status</label>
                 </value>
                 <value>
-                    <fullName>Return Request</fullName>
+                    <fullName>Return Local</fullName>
                     <default>false</default>
-                    <label>Return Request</label>
+                    <label>Return Local</label>
                 </value>
                 <value>
-                    <fullName>Return Status</fullName>
+                    <fullName>Return International</fullName>
                     <default>false</default>
-                    <label>Return Status</label>
+                    <label>Return International</label>
                 </value>
                 <value>
-                    <fullName>Exchange Request</fullName>
+                    <fullName>Exchange Local</fullName>
                     <default>false</default>
-                    <label>Exchange Request</label>
+                    <label>Exchange Local</label>
                 </value>
                 <value>
-                    <fullName>Exchange Status</fullName>
+                    <fullName>Exchange International</fullName>
                     <default>false</default>
-                    <label>Exchange Status</label>
+                    <label>Exchange International</label>
                 </value>
                 <value>
-                    <fullName>Refund</fullName>
+                    <fullName>Refund Local</fullName>
                     <default>false</default>
-                    <label>Refund</label>
+                    <label>Refund Local</label>
                 </value>
                 <value>
-                    <fullName>Refund Status</fullName>
+                    <fullName>Refund International</fullName>
                     <default>false</default>
-                    <label>Refund Status</label>
+                    <label>Refund International</label>
                 </value>
                 <value>
                     <fullName>Address Verification</fullName>
@@ -664,9 +1125,9 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
                     <label>E-Gift Card</label>
                 </value>
                 <value>
-                    <fullName>Others</fullName>
+                    <fullName>General Enquiry</fullName>
                     <default>false</default>
-                    <label>Others</label>
+                    <label>General Enquiry</label>
                 </value>
                 <value>
                     <fullName>Account</fullName>
@@ -728,6 +1189,36 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
                     <default>false</default>
                     <label>Gift</label>
                 </value>
+                <value>
+                    <fullName>Anonymous Calls</fullName>
+                    <default>false</default>
+                    <label>Anonymous Calls</label>
+                </value>
+                <value>
+                    <fullName>Order Cancellation</fullName>
+                    <default>false</default>
+                    <label>Order Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Art of Shaving</fullName>
+                    <default>false</default>
+                    <label>Art of Shaving</label>
+                </value>
+                <value>
+                    <fullName>Margaret Dabbs</fullName>
+                    <default>false</default>
+                    <label>Margaret Dabbs</label>
+                </value>
+                <value>
+                    <fullName>Cancellation</fullName>
+                    <default>false</default>
+                    <label>Cancellation</label>
+                </value>
+                <value>
+                    <fullName>TEST</fullName>
+                    <default>false</default>
+                    <label>TEST</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Amenities</controllingFieldValue>
@@ -744,6 +1235,22 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
             <valueSettings>
                 <controllingFieldValue>Amenities</controllingFieldValue>
                 <valueName>Bookings</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>Art of Shaving</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>Margaret Dabbs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>Cancellation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Amenities</controllingFieldValue>
+                <valueName>TEST</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Concierge</controllingFieldValue>
@@ -788,27 +1295,27 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Return Request</valueName>
+                <valueName>Return Local</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Return Status</valueName>
+                <valueName>Return International</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Exchange Request</valueName>
+                <valueName>Exchange Local</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Exchange Status</valueName>
+                <valueName>Exchange International</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Refund</valueName>
+                <valueName>Refund Local</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Refund Status</valueName>
+                <valueName>Refund International</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
@@ -820,23 +1327,15 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
-                <valueName>Others</valueName>
+                <valueName>General Enquiry</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>E-Commerce</controllingFieldValue>
                 <valueName>Account</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>Reservation</controllingFieldValue>
-                <valueName>New Reservation</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Reservation</controllingFieldValue>
-                <valueName>Existing Reservation</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Reservation</controllingFieldValue>
-                <valueName>Cancel Reservation</valueName>
+                <controllingFieldValue>E-Commerce</controllingFieldValue>
+                <valueName>Order Cancellation</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Shopping</controllingFieldValue>
@@ -857,6 +1356,22 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
             <valueSettings>
                 <controllingFieldValue>Shopping</controllingFieldValue>
                 <valueName>Wish List</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>New Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Existing Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shopping</controllingFieldValue>
+                <valueName>Cancel Reservation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Miscellaneous</controllingFieldValue>
+                <valueName>Anonymous Calls</valueName>
             </valueSettings>
         </valueSet>
     </fields>

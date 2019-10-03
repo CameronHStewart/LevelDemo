@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Address Verification</name>
+    <style>none</style>
+    <subject>Confirm your Address</subject>
+    <textOnly>Dear {!Case.Contact},
+
+Thank you for shopping with us at LevelShoes.com.
+
+Kindly be advised we have attempted to call as we require verbal address verification in order to proceed with your Order #{!Case.CaseNumber}.
+
+Please be informed if we cannot reach you by the end of today, {!Today}, we will cancel your order.
+
+For other general enquiries or to view level shoes online terms of sale, please feel free to visit the FAQ section on our website.
+
+Kind regards,
+
+Guest Services
+(+971) 800 LEVEL SD
+(+971) 800 53835 73
+
+
+Copyright © 2019 Level Shoes
+All rights reserved.
+
+FREE DELIVERY    |    CLICK &amp; COLLECT
+EXPRESS SHIPPING    |    30 DAY RETURN POLICY
+Phone Number: +971 800 538 3573</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -167,6 +167,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>EntityMilestone.IsWarning__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Contact</members>
         <members>Product2</members>
@@ -176,6 +180,10 @@
     </types>
     <types>
         <members>QuickText</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Case</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -237,6 +245,12 @@
         <name>EmailTemplate</name>
     </types>
     <types>
+        <members>Customer_Service_Automated_Emails/Address_Verification</members>
+        <members>Customer_Service_Automated_Emails/Your_request_has_been_received</members>
+        <members>Customer_Service_Automated_Emails/Your_request_has_been_resolved</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>standard support</members>
         <name>EntitlementProcess</name>
     </types>
@@ -271,6 +285,11 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>Set_Default_Entitlement_Process</members>
+        <members>Set_Second_Milestone_Stage</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>sf_com_apps</members>
         <name>InstalledPackage</name>
     </types>
@@ -295,6 +314,13 @@
         <members>Case-Custom Case Layout</members>
         <members>CaseInteraction-Case Feed Layout</members>
         <members>Contact-Contact Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Case-Case Layout</members>
+        <members>Case-Custom Case Layout</members>
+        <members>EntityMilestone-Object Milestone Layout</members>
+        <members>Global-Global Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -395,6 +421,19 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Admin</members>
+        <members>CPQ Integration User</members>
+        <members>ContractManager</members>
+        <members>Level Shoes Service Agent</members>
+        <members>Level Shoes Service Manager</members>
+        <members>MarketingProfile</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Level_Shoes_Service_Manager_profilePasswordPolicy1568792990573</members>
         <members>Level_Shoes_Service_User_profilePasswordPolicy1568533125245</members>
         <name>ProfilePasswordPolicy</name>
@@ -474,6 +513,11 @@
         <name>Workflow</name>
     </types>
     <types>
+        <members>EmailMessage</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Case</members>
         <members>EmailMessage</members>
         <name>Workflow</name>
     </types>

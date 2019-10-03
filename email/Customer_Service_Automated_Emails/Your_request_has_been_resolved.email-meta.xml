@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Your request has been resolved</name>
+    <style>none</style>
+    <subject>Your request has been resolved</subject>
+    <textOnly>**
+
+Dear {!Case.Contact},
+
+It was our pleasure to assist you with your request.
+
+We have now closed the case and hope that it was resolved to your satisfaction.
+
+If you have further concerns related to this case, please reply to this email and we will work to resolve them.
+
+Please tell us about your experience via our short survey. Your feedback helps us create a better experience for you and all of our customers.
+
+Click the link below to participate in our satisfaction survey:
+https://www.getfeedback.com/r/5K3aK14W?Case_Contact_ID={!Case.ContactId}&amp;Case_ID={!Case.Id}
+
+Kind regards,
+
+Guest Services
+(+971) 800 LEVEL SD
+(+971) 800 53835 73
+
+
+Copyright © 2019 Level Shoes
+All rights reserved.
+
+FREE DELIVERY    |    CLICK &amp; COLLECT
+EXPRESS SHIPPING    |    30 DAY RETURN POLICY
+Phone Number: +971 800 538 3573</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

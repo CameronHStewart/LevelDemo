@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when a case is created.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Your request has been received</name>
+    <style>none</style>
+    <subject>Your request has been received</subject>
+    <textOnly>Thank you for contacting Level Shoes Guest Services.
+
+We have received your request and a support case has been logged.
+
+Case# {!Case.CaseNumber}
+
+One of our service agents will be in touch with you soon.
+
+If you require urgent support please call us on:
+
++971 800 LEVEL SD
+(+971 800 53835 73)
+
+Opening hours:
+Daily 10am - 10pm
+
+
+Regards,
+
+Level Shoes
+
+
+Copyright © 2019 Level Shoes
+All rights reserved.
+
+FREE DELIVERY    |    CLICK &amp; COLLECT
+EXPRESS SHIPPING    |    30 DAY RETURN POLICY
+Phone Number: +971 800 538 3573</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
