@@ -903,7 +903,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Transaction__c.Total_Discount_Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>

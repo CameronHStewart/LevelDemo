@@ -55,6 +55,10 @@
                 <behavior>Edit</behavior>
                 <field>External_ID__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Total_Discount_Amount__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -68,10 +72,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Customer_Name__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Total_Discount_Amount__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

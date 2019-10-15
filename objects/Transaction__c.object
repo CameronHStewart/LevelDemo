@@ -348,11 +348,11 @@
         <fullName>Total_Discount_Amount__c</fullName>
         <externalId>false</externalId>
         <label>Total Discount Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
+        <summarizedField>Transaction_Item__c.Discount_Amount__c</summarizedField>
+        <summaryForeignKey>Transaction_Item__c.Transaction__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
         <trackTrending>false</trackTrending>
-        <type>Currency</type>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Transaction_Date_Time__c</fullName>
