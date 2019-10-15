@@ -13,23 +13,12 @@
         <name>ContentAsset</name>
     </types>
     <types>
-        <members>Level_Shoes_Letterhead</members>
-        <name>ContentAsset</name>
-    </types>
-    <types>
+        <members>Level_Shoes</members>
         <members>Sales</members>
         <members>standard__LightningBolt</members>
         <members>standard__LightningSales</members>
         <members>standard__LightningSalesConsole</members>
         <members>standard__LightningService</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>Level_Shoes</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>Level_Shoes</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -105,6 +94,7 @@
         <members>Contact.Working_Company__c</members>
         <members>Contact.XStore_ID__c</members>
         <members>Contact.Year_to_Date_Spent__c</members>
+        <members>EntityMilestone.IsWarning__c</members>
         <members>Product2.Baby_Junior__c</members>
         <members>Product2.Barcodes__c</members>
         <members>Product2.Class_ID__c</members>
@@ -167,23 +157,13 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>EntityMilestone.IsWarning__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
+        <members>Case</members>
         <members>Case</members>
         <members>Contact</members>
         <members>Product2</members>
+        <members>QuickText</members>
         <members>Transaction_Item__c</members>
         <members>Transaction__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>QuickText</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Case</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -195,36 +175,15 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Transaction__c</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
         <members>LevelShoesServiceDashboards</members>
         <members>LevelShoesServiceDashboards/egqvVgEEmjBzMNXZsZiXztHJyqVfSg</members>
         <members>LevelShoesServiceDashboards/ewgRHdjXdcdOqaoUoPyDRVSRZLcpwX</members>
         <name>Dashboard</name>
     </types>
     <types>
-        <members>LevelShoesServiceDashboards</members>
-        <members>LevelShoesServiceDashboards/egqvVgEEmjBzMNXZsZiXztHJyqVfSg</members>
-        <members>LevelShoesServiceDashboards/ewgRHdjXdcdOqaoUoPyDRVSRZLcpwX</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
+        <members>SharedDocuments/Angry.png</members>
+        <members>SharedDocuments/Happy.png</members>
         <members>SharedDocuments/Level_Shoes_Example.png</members>
-        <name>Document</name>
-    </types>
-    <types>
-        <members>SharedDocuments/Angry.png</members>
-        <members>SharedDocuments/Happy.png</members>
-        <members>SharedDocuments/Neutral.png</members>
-        <members>SharedDocuments/Unhappy.png</members>
-        <members>SharedDocuments/Very_Happy.png</members>
-        <name>Document</name>
-    </types>
-    <types>
-        <members>SharedDocuments/Angry.png</members>
-        <members>SharedDocuments/Happy.png</members>
         <members>SharedDocuments/Neutral.png</members>
         <members>SharedDocuments/Unhappy.png</members>
         <members>SharedDocuments/Very_Happy.png</members>
@@ -237,15 +196,8 @@
     </types>
     <types>
         <members>Customer_Service_Automated_Emails</members>
-        <members>Customer_Service_Automated_Emails/Case_Resolved</members>
-        <name>EmailTemplate</name>
-    </types>
-    <types>
-        <members>Customer_Service_Automated_Emails/Case_Resolved</members>
-        <name>EmailTemplate</name>
-    </types>
-    <types>
         <members>Customer_Service_Automated_Emails/Address_Verification</members>
+        <members>Customer_Service_Automated_Emails/Case_Resolved</members>
         <members>Customer_Service_Automated_Emails/Your_request_has_been_received</members>
         <members>Customer_Service_Automated_Emails/Your_request_has_been_resolved</members>
         <name>EmailTemplate</name>
@@ -258,35 +210,17 @@
         <members>Case_Record_Page3</members>
         <members>Case_Record_Page4</members>
         <members>Contact_Record_Page</members>
+        <members>Home_Page_Default</members>
+        <members>Level_Shoes_UtilityBar</members>
         <members>Transaction_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Home_Page_Default</members>
-        <members>Level_Shoes_UtilityBar</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>Level_Shoes_UtilityBar</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>Selecting_Contact_Type_Automatically_Through_Transactions</members>
         <members>Selecting_Contact_type_automatically_based_on_transactions_made</members>
-        <members>X12_Months_Spend_Flag_On_Transaction</members>
-        <name>Flow</name>
-    </types>
-    <types>
         <members>Selecting_Contact_type_automatically_through_transactions</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Selecting_Contact_type_automatically_through_transactions</members>
-        <name>Flow</name>
-    </types>
-    <types>
         <members>Set_Default_Entitlement_Process</members>
         <members>Set_Second_Milestone_Stage</members>
+        <members>X12_Months_Spend_Flag_On_Transaction</members>
         <name>Flow</name>
     </types>
     <types>
@@ -295,6 +229,7 @@
     </types>
     <types>
         <members>Account-Account Layout</members>
+        <members>Asset-Asset Layout</members>
         <members>Case-Case Layout</members>
         <members>Case-Custom Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
@@ -307,18 +242,10 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Asset-Asset Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
+        <members>Case-Case Layout</members>
         <members>Case-Custom Case Layout</members>
         <members>CaseInteraction-Case Feed Layout</members>
         <members>Contact-Contact Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Case-Case Layout</members>
-        <members>Case-Custom Case Layout</members>
         <members>EntityMilestone-Object Milestone Layout</members>
         <members>Global-Global Layout</members>
         <name>Layout</name>
@@ -340,23 +267,12 @@
         <name>LiveChatDeployment</name>
     </types>
     <types>
-        <members>Contact.Custom_Contact_Matching_Rule</members>
-        <name>MatchingRule</name>
-    </types>
-    <types>
         <members>Contact</members>
         <name>MatchingRules</name>
     </types>
     <types>
         <members>1st Contact Completed</members>
-        <members>1st contact</members>
         <members>Account Issue</members>
-        <members>Beauty Treatment</members>
-        <members>Courier Service</members>
-        <members>Create New Reservation</members>
-        <members>Delivery Status</members>
-        <members>Exchange International Complete</members>
-        <members>Exchange Local Complete</members>
         <members>Existing Reservation</members>
         <members>Initiate Exchange</members>
         <members>Initiate Refund</members>
@@ -366,17 +282,11 @@
         <members>Refund Status</members>
         <members>Refund Store Credit</members>
         <members>Repair</members>
-        <members>Return International complete</members>
         <members>Return Local complete</members>
-        <members>Store credit note - IT</members>
-        <members>Store credit note - Manager Approval</members>
         <name>MilestoneType</name>
     </types>
     <types>
         <members>Chat</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
         <members>Messaging</members>
         <name>PermissionSet</name>
     </types>
@@ -385,6 +295,7 @@
         <name>PresenceUserConfig</name>
     </types>
     <types>
+        <members>Admin</members>
         <members>CPQ Integration User</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
@@ -401,52 +312,9 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>Admin</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>CPQ Integration User</members>
-        <members>Chatter External User</members>
-        <members>Chatter Free User</members>
-        <members>Chatter Moderator User</members>
-        <members>ContractManager</members>
-        <members>Guest License User</members>
-        <members>Level Shoes Service Agent</members>
-        <members>Level Shoes Service Manager</members>
-        <members>MarketingProfile</members>
-        <members>ReadOnly</members>
-        <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>StandardAul</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>CPQ Integration User</members>
-        <members>ContractManager</members>
-        <members>Level Shoes Service Agent</members>
-        <members>Level Shoes Service Manager</members>
-        <members>MarketingProfile</members>
-        <members>ReadOnly</members>
-        <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>StandardAul</members>
-        <name>Profile</name>
-    </types>
-    <types>
         <members>Level_Shoes_Service_Manager_profilePasswordPolicy1568792990573</members>
         <members>Level_Shoes_Service_User_profilePasswordPolicy1568533125245</members>
         <name>ProfilePasswordPolicy</name>
-    </types>
-    <types>
-        <members>Level_Shoes_Service_Manager_profilePasswordPolicy1568792990573</members>
-        <members>Level_Shoes_Service_User_profilePasswordPolicy1568533125245</members>
-        <name>ProfilePasswordPolicy</name>
-    </types>
-    <types>
-        <members>Level_Shoes_Service_User_profileSessionSetting1568533125440</members>
-        <members>null_profileSessionSetting1568792990701</members>
-        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Level_Shoes_Service_User_profileSessionSetting1568533125440</members>
@@ -465,20 +333,6 @@
     <types>
         <members>Send_an_Email</members>
         <name>QuickAction</name>
-    </types>
-    <types>
-        <members>Send_an_Email</members>
-        <name>QuickAction</name>
-    </types>
-    <types>
-        <members>LevelShoesAgentKPIDashboardReports</members>
-        <members>LevelShoesAgentKPIDashboardReports/Cases_Closed_by_Agent</members>
-        <members>LevelShoesAgentKPIDashboardReports/Cases_by_Type_and_Statuses_DSy</members>
-        <members>LevelShoesAgentKPIDashboardReports/No_of_Cases_by_Origin_cXX</members>
-        <members>LevelShoesServiceCenterKPIReports</members>
-        <members>LevelShoesServiceCenterKPIReports/Avg_Case_Resolution_Time_by_Origin_LmN</members>
-        <members>Service_Dashboards_Reports/Case_Resolution_Time_MTD_by_Origin</members>
-        <name>Report</name>
     </types>
     <types>
         <members>LevelShoesAgentKPIDashboardReports</members>
@@ -506,38 +360,17 @@
     </types>
     <types>
         <members>Case</members>
-        <name>Workflow</name>
-    </types>
-    <types>
+        <members>Contact</members>
         <members>EmailMessage</members>
         <name>Workflow</name>
     </types>
     <types>
-        <members>EmailMessage</members>
-        <name>Workflow</name>
-    </types>
-    <types>
-        <members>Case</members>
-        <members>EmailMessage</members>
-        <name>Workflow</name>
-    </types>
-    <types>
-        <members>Admin</members>
         <members>Case</members>
         <members>Company</members>
+        <members>EmailAdministration</members>
         <members>Entitlement</members>
-        <members>LevelShoesAgentKPIDashboardReports</members>
         <members>LiveAgent</members>
         <members>OmniChannel</members>
-        <name>Settings</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>EmailAdministration</members>
-        <name>Settings</name>
-    </types>
-    <types>
-        <members>EmailAdministration</members>
         <name>Settings</name>
     </types>
     <version>47.0</version>

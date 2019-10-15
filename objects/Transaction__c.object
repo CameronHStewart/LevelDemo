@@ -352,7 +352,7 @@
         <required>false</required>
         <scale>2</scale>
         <trackTrending>false</trackTrending>
-        <type>Percent</type>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Transaction_Date_Time__c</fullName>
@@ -364,7 +364,7 @@
     </fields>
     <fields>
         <fullName>Transaction_Number__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Transaction Number</label>
         <length>255</length>
         <required>false</required>

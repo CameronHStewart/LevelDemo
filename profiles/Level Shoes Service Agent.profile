@@ -31,7 +31,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <custom>true</custom>
-    <description>No permission to reassign cases or export reports</description>
+    <description>No permission to reassign cases or export reports, or create email templates</description>
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.AccountId</field>
@@ -550,6 +550,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Shoe_Size__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Speedbus_Auto__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1121,19 +1126,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditHtmlTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>EditPublicDocuments</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditPublicTemplates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

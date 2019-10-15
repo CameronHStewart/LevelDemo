@@ -553,6 +553,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Speedbus_Auto__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Speedbus_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
