@@ -379,19 +379,19 @@
         <fullName>Customer_Satisfaction_Visual__c</fullName>
         <externalId>false</externalId>
         <formula>IF(TEXT(Customer_Satisfaction__c) = &quot;Very Happy&quot;,
-IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinF&quot;, &quot;Very Happy&quot;),
+IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinF&quot;, &quot;Very Happy&quot;, 28, 30),
 
 IF(TEXT(Customer_Satisfaction__c) = &quot;Happy&quot;,
-IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinK&quot;, &quot;Happy&quot;),
+IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinK&quot;, &quot;Happy&quot;, 28, 30),
 
 IF(TEXT(Customer_Satisfaction__c) = &quot;Neutral&quot;,
-IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinP&quot;, &quot;Neutral&quot;),
+IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinP&quot;, &quot;Neutral&quot;, 28, 30),
 
 IF(TEXT(Customer_Satisfaction__c) = &quot;Unhappy&quot;,
-IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinU&quot;, &quot;Unhappy&quot;),
+IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinU&quot;, &quot;Unhappy&quot;, 28, 30),
 
 IF(TEXT(Customer_Satisfaction__c) = &quot;Angry&quot;,
-IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angry&quot;),NULL)))))</formula>
+IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angry&quot;, 28, 30),NULL)))))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Customer Satisfaction Visual</label>
         <required>false</required>

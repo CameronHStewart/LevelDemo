@@ -170,6 +170,15 @@
         <protected>false</protected>
     </fieldUpdates>
     <fieldUpdates>
+        <fullName>Set_Ex_Item_Dispatched</fullName>
+        <field>Milestone_Status__c</field>
+        <literalValue>6. Exchange Local - Item dispatched</literalValue>
+        <name>Set Ex Item Dispatched</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>Set_Ex_Item_Quality_Check</fullName>
         <field>Milestone_Status__c</field>
         <literalValue>5. Exchange Local - Item Quality Check</literalValue>

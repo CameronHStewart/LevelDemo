@@ -36,6 +36,7 @@
         <members>Case.Subcategory__c</members>
         <members>Contact.AccountId</members>
         <members>Contact.Age_Range__c</members>
+        <members>Contact.Anniversary_Date__c</members>
         <members>Contact.Arabic_First_Name__c</members>
         <members>Contact.Arabic_Last_Name__c</members>
         <members>Contact.Birthdate</members>
@@ -56,10 +57,14 @@
         <members>Contact.First_Visit__c</members>
         <members>Contact.Gender__c</members>
         <members>Contact.Interests__c</members>
+        <members>Contact.Is_Guest__c</members>
         <members>Contact.LastName</members>
         <members>Contact.Last_Transaction_Date__c</members>
         <members>Contact.Last_Visit__c</members>
         <members>Contact.LeadSource</members>
+        <members>Contact.Legacy_Contact_Flag__c</members>
+        <members>Contact.Legacy_Created_Date__c</members>
+        <members>Contact.Legacy_Updated_Date__c</members>
         <members>Contact.Location_ID__c</members>
         <members>Contact.Magento_ID__c</members>
         <members>Contact.MailingCity</members>
@@ -232,6 +237,7 @@
         <members>Asset-Asset Layout</members>
         <members>Case-Case Layout</members>
         <members>Case-Custom Case Layout</members>
+        <members>Case-Working Case</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CaseInteraction-Case Feed Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
