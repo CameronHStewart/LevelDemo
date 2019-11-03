@@ -143,6 +143,7 @@
         <members>Transaction__c.Customer_Name__c</members>
         <members>Transaction__c.Invoice_Number__c</members>
         <members>Transaction__c.Last_expiry__c</members>
+        <members>Transaction__c.Purchase_Number__c</members>
         <members>Transaction__c.Sales_Associate_ID__c</members>
         <members>Transaction__c.Sales_Associate_Name__c</members>
         <members>Transaction__c.Store_City__c</members>
@@ -208,7 +209,7 @@
         <name>EmailTemplate</name>
     </types>
     <types>
-        <members>standard support</members>
+        <members>level shoes standard support v19</members>
         <name>EntitlementProcess</name>
     </types>
     <types>
