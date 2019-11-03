@@ -283,41 +283,41 @@
         <members>Account Issue</members>
         <members>All</members>
         <members>Cancel Booking</members>
-        <members>Cancel Order - Ecomm</members>
-        <members>Check Order Status - Ecomm</members>
+        <members>Cancel Order Ecomm</members>
+        <members>Check Order Status Ecomm</members>
         <members>Confirm Address</members>
         <members>Confirm Booking</members>
         <members>Confirm Cancellation</members>
         <members>Confirm Cancellation</members>
         <members>Confirm Order Status</members>
         <members>Create Booking</members>
-        <members>Exchange International - Confirm received</members>
-        <members>Exchange International - Item Quality Check</members>
-        <members>Exchange International - Item dispatched</members>
-        <members>Exchange International - Item dispatched</members>
-        <members>Exchange International - Security and Department</members>
-        <members>Exchange Local - Courier Pickup</members>
-        <members>Exchange Local - Item Quality Check</members>
-        <members>Exchange Local - RMA</members>
+        <members>Exchange International Confirm received</members>
+        <members>Exchange International Item Quality Check</members>
+        <members>Exchange International Item dispatched</members>
+        <members>Exchange International Item dispatched</members>
+        <members>Exchange International Security and Department</members>
+        <members>Exchange Local Courier Pickup</members>
+        <members>Exchange Local Item Quality Check</members>
+        <members>Exchange Local RMA</members>
         <members>Existing Reservation</members>
-        <members>Initiate Refund - Ecomm</members>
-        <members>New Reservation - Item Stock Check</members>
-        <members>New Reservation - Item pick up</members>
-        <members>New Reservation - Order Confirmation</members>
-        <members>New Reservation - Payment</members>
+        <members>Initiate Refund Ecomm</members>
+        <members>New Reservation Item Stock Check</members>
+        <members>New Reservation Item pick up</members>
+        <members>New Reservation Order Confirmation</members>
+        <members>New Reservation Payment</members>
         <members>Refund Confirmation</members>
         <members>Repair</members>
         <members>Return International</members>
-        <members>Return International - Complete</members>
-        <members>Return International - Confirm received</members>
-        <members>Return International - Item Quality Check</members>
-        <members>Return International - Security and Department</members>
-        <members>Return Local - Complete</members>
-        <members>Return Local - Courier Pickup</members>
-        <members>Return Local - Item Quality Check</members>
-        <members>Return Local - Item received</members>
-        <members>Return Local - Item received</members>
-        <members>Return Local - RMA</members>
+        <members>Return International Complete</members>
+        <members>Return International Confirm received</members>
+        <members>Return International Item Quality Check</members>
+        <members>Return International Security and Department</members>
+        <members>Return Local Complete</members>
+        <members>Return Local Courier Pickup</members>
+        <members>Return Local Item Quality Check</members>
+        <members>Return Local Item received</members>
+        <members>Return Local Item received</members>
+        <members>Return Local RMA</members>
         <members>Send Exchange Details</members>
         <members>TEST</members>
         <name>MilestoneType</name>

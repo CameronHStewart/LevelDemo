@@ -61,7 +61,7 @@
             <operation>equals</operation>
             <value></value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>New Reservation - Item Stock Check</milestoneName>
+        <milestoneName>New Reservation Item Stock Check</milestoneName>
         <minutesToComplete>120</minutesToComplete>
         <successActions>
             <name>New_Reservation_Status</name>
@@ -97,7 +97,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>New Reservation - Payment</milestoneName>
+        <milestoneName>New Reservation Payment</milestoneName>
         <minutesToComplete>720</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -133,7 +133,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>New Reservation - Order Confirmation</milestoneName>
+        <milestoneName>New Reservation Order Confirmation</milestoneName>
         <minutesToComplete>60</minutesToComplete>
         <successActions>
             <name>Item_Pickup</name>
@@ -169,7 +169,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>New Reservation - Item pick up</milestoneName>
+        <milestoneName>New Reservation Item pick up</milestoneName>
         <minutesToComplete>720</minutesToComplete>
         <successActions>
             <name>Done</name>
@@ -241,7 +241,7 @@
             <operation>equals</operation>
             <value>Return Local</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return Local - RMA</milestoneName>
+        <milestoneName>Return Local RMA</milestoneName>
         <minutesToComplete>720</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -277,7 +277,7 @@
             <operation>equals</operation>
             <value>3. Return Local - Courier Pickup</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return Local - Courier Pickup</milestoneName>
+        <milestoneName>Return Local Courier Pickup</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -313,7 +313,7 @@
             <operation>equals</operation>
             <value>Return Local</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return Local - Item received</milestoneName>
+        <milestoneName>Return Local Item received</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -349,7 +349,7 @@
             <operation>equals</operation>
             <value>5. Return Local - Item Quality Check</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return Local - Item Quality Check</milestoneName>
+        <milestoneName>Return Local Item Quality Check</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -385,7 +385,7 @@
             <operation>equals</operation>
             <value>6. Return Local - Complete</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return Local - Complete</milestoneName>
+        <milestoneName>Return Local Complete</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Done</name>
@@ -457,7 +457,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return International - Security and Department</milestoneName>
+        <milestoneName>Return International Security and Department</milestoneName>
         <minutesToComplete>2880</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -493,7 +493,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return International - Confirm received</milestoneName>
+        <milestoneName>Return International Confirm received</milestoneName>
         <minutesToComplete>840</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -529,7 +529,7 @@
             <operation>equals</operation>
             <value>5. Return International - Item Quality Check</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return International - Item Quality Check</milestoneName>
+        <milestoneName>Return International Item Quality Check</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -565,7 +565,7 @@
             <operation>equals</operation>
             <value>6. Return International - Complete</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return International - Complete</milestoneName>
+        <milestoneName>Return International Complete</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Done</name>
@@ -601,7 +601,7 @@
             <operation>equals</operation>
             <value>Exchange Local</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange Local - RMA</milestoneName>
+        <milestoneName>Exchange Local RMA</milestoneName>
         <minutesToComplete>720</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -637,7 +637,7 @@
             <operation>equals</operation>
             <value>Exchange Local</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange Local - Courier Pickup</milestoneName>
+        <milestoneName>Exchange Local Courier Pickup</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -673,7 +673,7 @@
             <operation>equals</operation>
             <value>Exchange Local</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return Local - Item received</milestoneName>
+        <milestoneName>Return Local Item received</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -709,7 +709,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange Local - Item Quality Check</milestoneName>
+        <milestoneName>Exchange Local Item Quality Check</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -745,7 +745,7 @@
             <operation>equals</operation>
             <value>Exchange Local</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange Local - Item dispatched</milestoneName>
+        <milestoneName>Exchange Local Item dispatched</milestoneName>
         <minutesToComplete>4320</minutesToComplete>
         <successActions>
             <name>Done</name>
@@ -817,7 +817,7 @@
             <operation>equals</operation>
             <value>Exchange International</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange International - Security and Department</milestoneName>
+        <milestoneName>Exchange International Security and Department</milestoneName>
         <minutesToComplete>2880</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -853,7 +853,7 @@
             <operation>equals</operation>
             <value>4. Exchange International - Confirm received</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange International - Confirm received</milestoneName>
+        <milestoneName>Exchange International Confirm Received</milestoneName>
         <minutesToComplete>840</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -889,7 +889,7 @@
             <operation>equals</operation>
             <value>5. Exchange International - Item Quality Check</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange International - Item Quality Check</milestoneName>
+        <milestoneName>Exchange International Item Quality Check</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -925,7 +925,7 @@
             <operation>equals</operation>
             <value>6. Exchange International - Item dispatched</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange International - Item dispatched</milestoneName>
+        <milestoneName>Exchange International Item dispatched</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
             <name>Done</name>
@@ -961,7 +961,7 @@
             <operation>equals</operation>
             <value></value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Initiate Refund - Ecomm</milestoneName>
+        <milestoneName>Initiate Refund Ecomm</milestoneName>
         <minutesToComplete>120</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -1249,7 +1249,7 @@
             <operation>equals</operation>
             <value></value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Check Order Status - Ecomm</milestoneName>
+        <milestoneName>Check Order Status Ecomm</milestoneName>
         <minutesToComplete>60</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -1321,7 +1321,7 @@
             <operation>equals</operation>
             <value>Order Cancellation</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Cancel Order - Ecomm</milestoneName>
+        <milestoneName>Cancel Order Ecomm</milestoneName>
         <minutesToComplete>120</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
