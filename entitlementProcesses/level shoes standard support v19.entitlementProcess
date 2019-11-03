@@ -457,7 +457,7 @@
             <operation>equals</operation>
             <value>true</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Return International - Security %26 Department</milestoneName>
+        <milestoneName>Return International - Security and Department</milestoneName>
         <minutesToComplete>2880</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
@@ -817,7 +817,7 @@
             <operation>equals</operation>
             <value>Exchange International</value>
         </milestoneCriteriaFilterItems>
-        <milestoneName>Exchange International - Security %26 Department</milestoneName>
+        <milestoneName>Exchange International - Security and Department</milestoneName>
         <minutesToComplete>2880</minutesToComplete>
         <successActions>
             <name>Not_in_Warning</name>
