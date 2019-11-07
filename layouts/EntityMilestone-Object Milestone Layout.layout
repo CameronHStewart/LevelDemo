@@ -29,10 +29,6 @@
                 <behavior>Readonly</behavior>
                 <field>IsCompleted</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsWarning__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -4,10 +4,8 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>Your request has been resolved</name>
     <style>none</style>
-    <subject>Your request has been resolved</subject>
-    <textOnly>**
-
-Dear {!Case.Contact},
+    <subject>Your request has been resolved - {!Case.Thread_Id}</subject>
+    <textOnly>Dear {!Case.Contact},
 
 It was our pleasure to assist you with your request.
 
@@ -15,10 +13,10 @@ We have now closed the case and hope that it was resolved to your satisfaction.
 
 If you have further concerns related to this case, please reply to this email and we will work to resolve them.
 
-Please tell us about your experience via our short survey. Your feedback helps us create a better experience for you and all of our customers.
+How did we do today?
 
-Click the link below to participate in our satisfaction survey:
-https://www.getfeedback.com/r/5K3aK14W?Case_Contact_ID={!Case.ContactId}&amp;Case_ID={!Case.Id}
+Poor Excellent
+
 
 Kind regards,
 

@@ -209,6 +209,15 @@
         <fields>Customer_Satisfaction_Visual__c</fields>
         <label>Service</label>
     </compactLayouts>
+    <compactLayouts>
+        <fullName>Test</fullName>
+        <fields>Subject</fields>
+        <fields>Priority</fields>
+        <fields>Status</fields>
+        <fields>CaseNumber</fields>
+        <fields>Customer_Satisfaction_Visual__c</fields>
+        <label>Test</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <fields>
         <fullName>AccountId</fullName>
@@ -1219,6 +1228,48 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
                     <default>false</default>
                     <label>TEST</label>
                 </value>
+                <value>
+                    <fullName>Exchange Request</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Exchange Request</label>
+                </value>
+                <value>
+                    <fullName>Exchange Status</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Exchange Status</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Others</label>
+                </value>
+                <value>
+                    <fullName>Refund</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Refund</label>
+                </value>
+                <value>
+                    <fullName>Refund Status</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Refund Status</label>
+                </value>
+                <value>
+                    <fullName>Return Request</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Return Request</label>
+                </value>
+                <value>
+                    <fullName>Return Status</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Return Status</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Amenities</controllingFieldValue>
@@ -1480,15 +1531,6 @@ IMAGE(&quot;/servlet/servlet.FileDownload?file=01525000000WinZ&quot;, &quot;Angr
         </filters>
         <label>Working</label>
         <queue>Working</queue>
-    </listViews>
-    <listViews>
-        <fullName>Working_Case</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Working</label>
-        <queue>Working</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>

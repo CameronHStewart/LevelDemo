@@ -11,7 +11,7 @@
     
     <div>
         
-        <span style="display:none;font-size:0px;line-height:0px;max-height:0px;max-width:0px;overflow:hidden">**</span>
+        <span style="display:none;font-size:0px;line-height:0px;max-height:0px;max-width:0px;overflow:hidden"></span>
         
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
@@ -128,11 +128,10 @@ It was our pleasure to assist you with your request.<br>
 We have now closed the case and hope that it was resolved to your satisfaction.<br>
 <br>
 If you have further concerns related to this case, please reply to this email and we will work to resolve them.<br>
+
 <br>
-Please tell us about your experience via our short survey. Your feedback helps us create a better experience for you and all of our customers.<br>
-<br>
- Click the link below to participate in our satisfaction survey:<br>
-<a href="https://www.getfeedback.com/r/5K3aK14W?Case_Contact_ID={!Case.ContactId}&Case_ID={!Case.Id}" target="_blank">https://www.getfeedback.com/r/5K3aK14W?Case_Contact_ID={!Case.ContactId}&Case_ID={!Case.Id}</a><br>
+<table align="" style="border-radius:2px;border-spacing:0;color:#222;font-family:&#39;Open Sans&#39;,sans-serif;font-size:11px;font-weight:300;width:600px" width="600"><tr><td style="background-color:#fff"><h2 style="color:#222;font-family:&#39;Open Sans&#39;,sans-serif;font-size:16px;font-weight:700;line-height:26px;margin:14px 0 14px 0">How did we do today?</h2><div style="display:table;margin-right:auto"><div style="display:inline-block;width:40px;padding:0 2px"><a href="https://www.getfeedback.com/r/5K3aK14W?Case_ID={!Case.Id}&Case_Contact_ID={!Case.ContactId}" target="_blank"><span style="outline:1px solid #fff;display:inline-block"><img alt="1" src="https://m.levelshoes.com/wysiwyg/CSAT/5_1.png" style="border:0;outline:1px solid #fff;width:100%;max-width:40px;vertical-align:bottom" width="40"></span></a></div><div style="display:inline-block;width:40px;padding:0 2px"><a href="https://levelshoes.getfeedback.com/r/5TtTrz6t?ID+={{ticket.id}}&amp;ID+Name={{ticket.requester.name}}&amp;gf_q%5B7234246%5D=2" style="color:#967644;font-size:0" target="_blank"><span style="outline:1px solid #fff;display:inline-block"><img alt="2" src="https://m.levelshoes.com/wysiwyg/CSAT/4_1.png" style="border:0;outline:1px solid #fff;width:100%;max-width:40px;vertical-align:bottom" width="40"></span></a></div><div style="display:inline-block;width:40px;padding:0 2px"><a href="https://levelshoes.getfeedback.com/r/5TtTrz6t?ID+={{ticket.id}}&amp;ID+Name={{ticket.requester.name}}&amp;gf_q%5B7234246%5D=3" style="color:#967644;font-size:0" target="_blank"><span style="outline:1px solid #fff;display:inline-block"><img alt="3" src="https://m.levelshoes.com/wysiwyg/CSAT/3_1.png" style="border:0;outline:1px solid #fff;width:100%;max-width:40px;vertical-align:bottom" width="40"></span></a></div><div style="display:inline-block;width:40px;padding:0 2px"><a href="https://levelshoes.getfeedback.com/r/5TtTrz6t?ID+={{ticket.id}}&amp;ID+Name={{ticket.requester.name}}&amp;gf_q%5B7234246%5D=4" style="color:#967644;font-size:0" target="_blank"><span style="outline:1px solid #fff;display:inline-block"><img alt="4" src="https://m.levelshoes.com/wysiwyg/CSAT/2_1.png" style="border:0;outline:1px solid #fff;width:100%;max-width:40px;vertical-align:bottom" width="40"></span></a></div><div style="display:inline-block;width:40px;padding:0 2px"><a href="https://levelshoes.getfeedback.com/r/5TtTrz6t?ID+={{ticket.id}}&amp;ID+Name={{ticket.requester.name}}&amp;gf_q%5B7234246%5D=5" style="color:#967644;font-size:0" target="_blank"><span style="outline:1px solid #fff;display:inline-block"><img alt="5" src="https://m.levelshoes.com/wysiwyg/CSAT/1_1.png" style="border:0;outline:1px solid #fff;width:100%;max-width:40px;vertical-align:bottom" width="40"></span></a></div></div><table align="" style="max-width:100%" width="220" cellpadding="0" cellspacing="0"><tr><td style="color:#7e7e7e;font-family:&#39;Open Sans&#39;,sans-serif;font-size:12px;text-transform:uppercase;text-align:left">Poor<td style="color:#7e7e7e;font-family:&#39;Open Sans&#39;,sans-serif;font-size:12px;text-transform:uppercase;text-align:right">Excellent</td></td></tr></table></td></tr></table>
+
 <br>
 Kind regards,<br>
 <br>
