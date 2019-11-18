@@ -5,7 +5,7 @@
             <user>levelshoes@weare4c.com</user>
         </users>
     </assignments>
-    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentFileTransfer>true</enableAgentFileTransfer>
     <enableAgentSneakPeek>false</enableAgentSneakPeek>
     <enableAssistanceFlag>false</enableAssistanceFlag>
     <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
@@ -18,7 +18,7 @@
     <enableLogoutSound>false</enableLogoutSound>
     <enableNotifications>false</enableNotifications>
     <enableRequestSound>false</enableRequestSound>
-    <enableSneakPeek>false</enableSneakPeek>
+    <enableSneakPeek>true</enableSneakPeek>
     <enableVisitorBlocking>false</enableVisitorBlocking>
     <enableWhisperMessage>true</enableWhisperMessage>
     <label>Guest Services</label>

@@ -67,6 +67,7 @@
         <members>Contact.Legacy_Updated_Date__c</members>
         <members>Contact.Location_ID__c</members>
         <members>Contact.Magento_ID__c</members>
+        <members>Contact.Magento_Registration_Date__c</members>
         <members>Contact.MailingCity</members>
         <members>Contact.MailingCountry</members>
         <members>Contact.MailingPostalCode</members>
@@ -86,11 +87,11 @@
         <members>Contact.Preferred_Contact_Method__c</members>
         <members>Contact.Preferred_Language__c</members>
         <members>Contact.Preferred_Sales_Associate__c</members>
+        <members>Contact.Preferred_Shoe_Sizes__c</members>
         <members>Contact.Preferred_Styles__c</members>
         <members>Contact.Residency__c</members>
         <members>Contact.SMS_Opt_Out__c</members>
         <members>Contact.Salutation</members>
-        <members>Contact.Shoe_Size__c</members>
         <members>Contact.Speedbus_ID__c</members>
         <members>Contact.Spend_to_Date__c</members>
         <members>Contact.Transaction_Count__c</members>
@@ -98,6 +99,7 @@
         <members>Contact.WhatsApp_Opt_Out__c</members>
         <members>Contact.Working_Company__c</members>
         <members>Contact.XStore_ID__c</members>
+        <members>Contact.XStore_Registration_Date__c</members>
         <members>Contact.Year_to_Date_Spent__c</members>
         <members>EntityMilestone.IsWarning__c</members>
         <members>Product2.Baby_Junior__c</members>

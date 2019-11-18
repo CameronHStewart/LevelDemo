@@ -60,6 +60,14 @@
                 <behavior>Edit</behavior>
                 <field>WhatsApp_Opt_Out__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Magento_Registration_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>XStore_Registration_Date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -140,7 +148,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Shoe_Size__c</field>
+                <field>Preferred_Shoe_Sizes__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

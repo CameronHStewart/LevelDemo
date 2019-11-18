@@ -329,6 +329,7 @@
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -945,6 +946,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Magento_Registration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Magento Registration Date</label>
+        <summarizedField>Transaction__c.Transaction_Date_Time__c</summarizedField>
+        <summaryForeignKey>Transaction__c.Contact__c</summaryForeignKey>
+        <summaryOperation>min</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>MailingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -1241,6 +1251,25 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Preferred_Shoe_Sizes__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Shoe Sizes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NA</fullName>
+                    <default>false</default>
+                    <label>NA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
         <fullName>Preferred_Styles__c</fullName>
         <externalId>false</externalId>
         <label>Preferred Styles</label>
@@ -1286,25 +1315,6 @@
         <label>SMS Opt Out</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Shoe_Size__c</fullName>
-        <externalId>false</externalId>
-        <label>Shoe Size</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>NA</fullName>
-                    <default>false</default>
-                    <label>NA</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>Speedbus_Auto__c</fullName>
@@ -1400,6 +1410,20 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>XStore_Registration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>XStore Registration Date</label>
+        <summarizedField>Transaction__c.Transaction_Date_Time__c</summarizedField>
+        <summaryFilterItems>
+            <field>Transaction__c.Store_ID__c</field>
+            <operation>equals</operation>
+            <value>8001</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Transaction__c.Contact__c</summaryForeignKey>
+        <summaryOperation>min</summaryOperation>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Year_to_Date_Spent__c</fullName>
